@@ -12,10 +12,11 @@ export default function Home() {
 
   return (
     <>
-      <ContainerInto />
-      <ContainerInto />
-      <ContainerInto />
-      
+      <ContainerInto content={"Wo Sie auch sind, Ihr Bürocontainer kommt immer mit!"} src={"https://www.containhaus.de/assets/img/FrontPage/BuroMainpageUpdate.webp"} />
+      <ContainerInto content={"mehr Raum, mehr Komfort, mehr Freiheit mit XL 3x7 Container"} src={"https://www.containhaus.de/assets/img/FrontPage/XLMainpageUpdate.webp"} />
+      <ContainerInto content={"Containhaus Sanitärcontainer, der Retter des Tages"} src={"https://www.containhaus.de/assets/img/FrontPage/SanitaMainpageUpdate.webp"} />
+      <ContainerInto content={"Flat Pack Bau es Selbst! Sparen & Spass Haben"} src={"https://www.containhaus.de/assets/img/FrontPage/FlatpackMainPage.webp"} />
+      <ContainerInto content={"Mit Containhaus werden Träume wahr"} src={"https://www.containhaus.de/assets/img/FrontPage/SpecialMainpageUpdate.webp"} />
     </>
   );
 }
