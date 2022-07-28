@@ -4,12 +4,19 @@
 
    height: 100vh;
    width: 100%; 
+
+
    background-size: cover;
    background-position: center;
    background-repeat: no-repeat;
    
    justify-content: center;
    display: flex;
+  }
+  @media only screen and (max-width: 500px) {
+    .intro-img {
+      background-image: url("/assets/img/Bau/BauMobilInnerPageUpdate.webp") !important;
+    }
   }
   .intro-content{
     display: flex;
@@ -91,6 +98,10 @@ font-size: 15px;
   .medium-footer{
     background-image: linear-gradient(to top right, black, gray);
     color: #f8f9fa;
+   
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     padding: 60px;
   }
   .mid-footer-bot{
@@ -155,5 +166,19 @@ font-size: 15px;
  .contact-title{
   justify-content: center;
   display: flex;
+  font-size: 30px;
+  font-weight: 600;
+  
+ }
+ .contact-input{
+  outline: none; 
+  border: 1px solid #dfdfdf;
 
+ }
+ .contact-button{
+  background-color: #1e1e1e;
+  border: 1px solid #1e1e1e; 
+  border-radius: 18px;
+  color: white;
+  padding:4px 0 ;
  }

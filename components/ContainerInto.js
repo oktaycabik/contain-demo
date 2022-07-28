@@ -4,7 +4,7 @@ import Image from "next/image";
 const ContainerInto = ({data}) => {
   
   return (
-    <div className='intro-img vh-100'  style={{ backgroundImage: `url(${data.image})` }}>
+    <div className='intro-img'  style={{ backgroundImage: `url(${data.image})` }}>
     <div className="intro-content">
     <h1 className="mt-1 fw-bold">{data.title.second}</h1>
     <h5 className="mt-1 fw-bolder text-danger">{data.content.second}</h5>
