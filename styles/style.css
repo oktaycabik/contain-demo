@@ -14,8 +14,8 @@
    display: flex;
   }
   @media only screen and (max-width: 500px) {
-    .intro-img {
-      background-image: url("/assets/img/Bau/BauMobilInnerPageUpdate.webp") !important;
+    .intro-content {
+      text-align: center;
     }
   }
   .intro-content{
@@ -55,7 +55,18 @@ font-size: 15px;
     border: 1px solid #f8f9fa;
     border-radius: 24px;
     padding:32px 24px ;
-    margin-right: 10px;
+    margin: 10px;
+   
+  }
+  @media only screen and (max-width: 500px) {
+    .banner-content {
+      text-align: center;
+      margin:  0 10px;
+    }
+    .banner-img{
+      justify-content: center;
+    
+    }
   }
   .banner-button{
     border: 1px solid #171a20cc;
@@ -109,6 +120,7 @@ font-size: 15px;
     justify-content: space-between;
     margin-top: 30px;
   }
+
   .contact-tag{
     font-size: 16px;
     line-height: 1.4;
@@ -146,9 +158,22 @@ font-size: 15px;
   bottom: 0;
   color: white;
  }
+ @media only screen and (max-width: 770px) {
+  .footer {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+   align-items: center !important;
+   text-align: center;
+  }
+}
  /* WhyWe Components */ 
  .why-we{
   background-image: linear-gradient(to top right, black, gray);
+  background-position: center;
+  background-size: cover;
+   
+   background-repeat: no-repeat;
   height: 500px;
   color: white;
  }
@@ -159,7 +184,7 @@ font-size: 15px;
 
  }
  .whywe-icon{
-  display: flex;
+  
   justify-content: center;
   align-items: center;
  }
