@@ -36,7 +36,7 @@ font-size: 15px;
     background-position: center;
     background-repeat: no-repeat;
     align-items: center;
-    justify-content: end;
+    justify-content: flex-end;
     display: flex;
    }
    .banner-content{
@@ -128,4 +128,32 @@ font-size: 15px;
  .footer-logo{
   width: 200px;
   height: 120px;
+ }
+ /* WhyWe Components */ 
+ .why-we{
+  background-image: linear-gradient(to top right, black, gray);
+  height: 500px;
+  color: white;
+ }
+ .whywe-title{
+  display: flex;
+ justify-content: center;
+ flex-direction: column;
+
+ }
+ .whywe-icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+ /* Kontaktt page */
+
+ .contact-page{
+  margin-top: 120px;
+  
+ }
+ .contact-title{
+  justify-content: center;
+  display: flex;
+
  }

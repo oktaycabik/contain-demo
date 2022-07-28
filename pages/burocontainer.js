@@ -6,6 +6,7 @@ import bannerConttainer from "../data/containerbanner.json"
 import introContainer from "../data/containerIntro.json"
 import alleModal from "../data/containerallemodel.json"
 import AlleModal from '../components/AlleModal'
+import WhyWeComponent from '../components/WhyWeComponent'
 const Burocontaıner = () => {
  
   const {burocontainer}=bannerConttainer
@@ -15,6 +16,7 @@ const Burocontaıner = () => {
     <div>
         <ContainerInto data={buroconteiner} ></ContainerInto>
         <ContainerModal data={burocontainer}></ContainerModal>
+        <WhyWeComponent></WhyWeComponent>
         <AlleModal data={burocontainerModal}></AlleModal>
     </div>
   )
