@@ -6,44 +6,44 @@
       "first": "Wo Sie auch sind, Ihr Bürocontainer kommt immer mit!",
       "Third": "Direkt ab Werk"
     },
-    "image": "https://ucdfa0f9a48cb32022be33cdcb08.dl.dropboxusercontent.com/cd/0/inline/Bp2IdqDY1HxtE0-XIVtQ2Qxnx4zA2FlRWm5aMnJqPV9F8n-XWcyZrWlbAxzZLhYlwUzy1AIiQ5LqwVsbQ_0ofiXcc-Wyv_eDPOZ0cAp7aF3aUfMeKjJge8mndrt52OnGfhVlziwcoa6sJDEe4F7LP_Mef8v-kcnHkYgBJFwFgDYDBg/file#"
+    "image": "/assets/img/FrontPage/BuroMainpageUpdate.webp"
   },
-  "wohncontainer":{
+  "wohncontainers":{
     "id": 1,
     "title": { "second": "XL Wohncontainer" },
     "content": {
       "first": "mehr Raum, mehr Komfort, mehr Freiheit mit XL 3x7 Container",
       "Third": "Direkt ab Werk"
     },
-    "image": "https://ucd9c19ccb1e759751c4fc08becd.dl.dropboxusercontent.com/cd/0/inline/Bp0LoqYg3RXUuDwfMXeYs0gRPw42SWCznuylQWUrYRJmKAD6C7yTRlej9BqOrOGm6RiNWtdC-krVBK3_zKlIcwjzeU3DgcCt8b-lTNrdRKdFml-QIbjLwI4FDPQfsjWRY4XzY6__Y8-ILq6GLrR46dwEAPegPydmTplf75OzdlNOnw/file#"
+    "image": "/assets/img/FrontPage/XLMainpageUpdate.webp"
   },
-  "sanitacontainer":{
+  "sanitacontainers":{
     "id": 1,
     "title": { "second": "Sanitärcontainer" },
     "content": {
       "first": "Containhaus Sanitärcontainer, der Retter des Tages",
       "Third": "Direkt ab Werk"
     },
-    "image": "https://ucfb3543b64b628a9907bc3b0b6f.dl.dropboxusercontent.com/cd/0/inline/Bp2fu1lYban2ieWwhqA5TAG-KZt5XxoQK6fBQrPLCZwRA39nKB00L_yvR4rZqLa_l4CUmHY4uxFuAg3mE6d9QCjgcuwmndFjtzVRi9_Xicdgai_CpWuddQtYuyHImcJ6QZK4SX0O52zpR9W07B4UVgj3ItKmT6sSUpHCi3DKVTR00g/file#",
+    "image": "/assets/img/FrontPage/SanitaMainpageUpdate.webp",
     "image1": "/assets/img/FrontPage/SanitaMobilMainpageUpdate.webp"
   },
-  "flatpackcontainer": {
+  "flatpackcontainers": {
     "id": 1,
     "title": { "second": "Flat Pack" },
     "content": {
       "first": "Flat Pack Bau es Selbst! Sparen & Spass Haben",
       "Third": "Direkt ab Werk"
     },
-    "image": "https://uc639ef70bd0fdebc87198e092d8.dl.dropboxusercontent.com/cd/0/inline/Bp0c1t6HlAktLCU7NkNKV_KIUmbcAmVc6S3lxpyjzEsqDmDCK32SuRsbWnYz_I47zyidG3vYjmq6Hyq4J-PwEs0Y6qcnqzD2g2I8_lST5_mZH5REYp_pbvzjMXzfWfYlikvlHFKldKtjYtu5oMSjEVXPpProjJnB0qI9a06iKnuoZA/file#"
+    "image": "/assets/img/FrontPage/FlatpackMainPage.webp"
   },
-  "specialeditaton":{
+  "specialeditatons":{
     "id": 1,
     "title": { "second": "Special Edition" },
     "content": {
       "first": "Mit Containhaus werden Träume wahr",
       "Third": "Direkt ab Werk"
     },
-    "image": "https://uc8653057efb2f0af76c7d633727.dl.dropboxusercontent.com/cd/0/inline/Bp2-SThsvI4I7j4dAGU0JD9vOAD6SEaImDx16uSqcoFmBKVZ-uRNREtT9MkvJEz1gYOFascxZDOesysdbYvFEwHzgwBgI_xj1vGthIC7QGUW8soYXEZ5FmBOUqu4DpdWIhUVEXIcHDg411DRXKNfS7OicysHICH_MNtTbIxBV9_gxg/file#"
+    "image": "/assets/img/FrontPage/SpecialMainpageUpdate.webp"
     
   }
 }

@@ -2,13 +2,15 @@ import React from 'react'
 import ContainerInto from '../components/ContainerInto'
 import ContainerModal from '../components/ContainerModal'
 import bannerConttainer from "../data/containerbanner.json"
+import introContainer from "../data/containerIntro.json"
+
 const Burocontaıner = () => {
  
   const {burocontainer}=bannerConttainer
-  console.log('first', burocontainer)
+  const {buroconteiner}=introContainer
   return (
     <div>
-        <ContainerInto ></ContainerInto>
+        <ContainerInto data={buroconteiner} ></ContainerInto>
         <ContainerModal data={burocontainer}></ContainerModal>
     </div>
   )
