@@ -132,13 +132,19 @@ font-size: 15px;
  }
  .footer-top{
   display: flex;
-  margin-bottom: 40px;
-  align-items: center;
-  justify-content: center;
+  
  }
  .footer-logo{
   width: 200px;
   height: 120px;
+ }
+
+ .footer{
+  background-color: #0a0a0a;
+  width: 100%;
+  padding: 50px 24px;
+  bottom: 0;
+  color: white;
  }
  /* WhyWe Components */ 
  .why-we{
