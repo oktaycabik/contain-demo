@@ -1,5 +1,5 @@
 {
-   "burocontainer": {
+   "burocontainerModal": {
         "id": 1,
         "title": { "second": "BüroContainer" },
         "content": {
@@ -7,7 +7,7 @@
         },
         "image": "/assets/img/slid/n/AlleModalBuro.webp"
       },
-      "wohncontainer":{
+      "wohncontainerModal":{
         "id": 1,
         "title": { "second": "XL Container" },
         "content": {
@@ -15,7 +15,7 @@
         },
         "image": "/assets/img/slid/n/DigerModellerArkaplan.webp"
       },
-      "sanitacontainer":{
+      "sanitacontainerModal":{
         "id": 1,
         "title": { "second": "Sanitärcontainer" },
         "content": {
@@ -23,7 +23,7 @@
         },
         "image": "/assets/img/slid/n/DigerModellerArkaplan.png"
       },
-      "flatpack":{
+      "flatpackModal":{
         "id": 1,
         "title": { "second": "Flat Pack" },
         "content": {
@@ -31,7 +31,7 @@
         },
         "image": "/assets/img/slid/n/DigerModellerArkaplan.webp"
       },
-      "specialedition":{
+      "specialeditionModal":{
         "id": 1,
         "title": { "second": "Special Edition" },
         "content": {

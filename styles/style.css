@@ -58,3 +58,74 @@ font-size: 15px;
     color:white;
     font-size: 13px;
   }
+
+  /* Alle Model */
+  .allemodel-img{
+
+    height: 100vh;
+    width: 100%; 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    justify-content: center;
+    display: flex;
+   }
+   .allemodel-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+   
+  }
+  .allemodel-button{
+    margin-top: 40px;
+    padding: 10px 60px;
+    border: 1px solid #1e1e1e;
+    border-radius: 50px;
+    font-size: 30px !important;
+    color: rgb(0, 0, 0);
+  }
+  /* Footer Components */ 
+
+  .medium-footer{
+    background-image: linear-gradient(to top right, black, gray);
+    color: #f8f9fa;
+    padding: 60px;
+  }
+  .mid-footer-bot{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+  .contact-tag{
+    font-size: 16px;
+    line-height: 1.4;
+    font-weight: 600;
+  }
+  .footer-info{
+    font-weight: 700;
+    font-size: 15px;
+  }
+  .footer-contact-title{
+    font-weight: 700;
+    font-size: 15px;
+  }
+ .footer-info-text{
+  font-size: 15px;
+  font-weight: 500;
+ }
+ .footer-bottom{
+  background-color: #262123 !important;
+ 
+ }
+ .footer-top{
+  display: flex;
+  margin-bottom: 40px;
+  align-items: center;
+  justify-content: center;
+ }
+ .footer-logo{
+  width: 200px;
+  height: 120px;
+ }
