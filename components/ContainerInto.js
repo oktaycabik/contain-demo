@@ -1,23 +1,17 @@
 import React, { useRef } from "react";
 import Image from "next/image";
 
-const ContainerInto = ({src,content}) => {
-  console.log('src', src)
+const ContainerInto = () => {
+  
   return (
-    <div className="position-relative justify-content-center aling-items-center d-flex">
-      <img
-        className="vh-100 w-100"
-        src={src}
-        alt=""
-      />
-      <div id="custom" className="position-absolute mt-5 top-0 custom col-4">
-        <h1>Bürocontainer</h1>
-        <h5 className="text-danger mt-1 direkt-ab">Direkt ab Werk</h5>
-        <div className="motto text-light mt-1">
-          {content}
-        </div>
-      </div>
+    <div className='intro-img vh-100'  style={{ backgroundImage: `url(https://www.containhaus.de/assets/img/FrontPage/BuroMainpageUpdate.webp)` }}>
+    <div className="intro-content">
+    <h1 className="mt-1 fw-bold">Burocontainer</h1>
+    <h5 className="mt-1 fw-bolder text-danger">Direkt ab Werk</h5>
+    <h5 className="mt-2 text-light">Wo Sie auch sind, Ihr Bürocontainer kommt immer mit!</h5>
+    <button className="intro-button">HIER GEHT'S WEITTER</button>
     </div>
+  </div>
   );
 };
 

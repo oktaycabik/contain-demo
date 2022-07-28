@@ -1,0 +1,66 @@
+{
+  "burocontainer": { "id": 1,
+    "title": { 
+      "first": "Bürocontainer mieten und kaufen:",
+      "second":  "Anbieter vergleichen"
+  },
+    "content": {
+      "first": "Angebote aus Ihrer region",
+      "second": "Kostenlos und unverbindlich",
+      "third": "Geprüfte Anbieter"
+    },
+    "image": "https://uc524429869ac5f7e42841ec9568.dl.dropboxusercontent.com/cd/0/inline/Bp3oYqlKBsHAVAYvgvC6dc7b12uO2Q2isLCvrr8p1jOPBp7KXGK9aiJPyoztabFrMC4Yzu5QdNZL1-Osf7zfEihqS8jpCgkibQYaodCtIv7uIep5g2WfCwmzkSkYky0FbOMV0k7KB4Wbyzt5AzS1MS_TnOx12B2LN9tmPjXGWjaAmg/file#"
+},
+ "wohncontainer":{
+    "id": 1,
+    "title": { 
+      "first": "XL Container mieten und kaufen:",
+      "second":  "Anbieter vergleichen"
+  },
+    "content": {
+      "first": "Angebote aus Ihrer region",
+      "second": "Kostenlos und unverbindlich",
+      "third": "Geprüfte Anbieter"
+    },
+    "image": "https://uc666c0d33528e63f94ea720af8d.dl.dropboxusercontent.com/cd/0/inline/Bp0G7KZa35TN7EUtaj5pQpqrUopWZvk2KACpaLbEhL5NePOePFNcCtR7N0CMKybcuFaey7Jxygml1KpERQxqDwbjY4gDLirULQbHg1HZhBapz_-rRKSNo1d-0YqrzGuDpW-ZW6MIC8oacSZOiF1-h9SRTrJd6ckJ7GmUgijVfULezw/file#"
+  },
+  "sanitacontainer": {
+    "id": 1,
+    "title": { 
+      "first": "Sanitärcontainer mieten und kaufen:",
+      "second":  "Anbieter vergleichen"
+  },
+    "content": {
+      "first": "Angebote aus Ihrer region",
+      "second": "Kostenlos und unverbindlich",
+      "third": "Geprüfte Anbieter"
+    },
+    "image": "/assets/img/FrontPage/SanitaMainpageUpdate.webp"
+  },
+ "flatpackcontainer" :{
+    "id": 1,
+    "title": { 
+      "first": "Flatpack mieten und kaufen:",
+      "second":  "Anbieter vergleichen"
+  },
+    "content": {
+      "first": "Angebote aus Ihrer region",
+      "second": "Kostenlos und unverbindlich",
+      "third": "Geprüfte Anbieter"
+    },
+    "image": "/assets/img/FlatPackMenu/FlatpackMain.webp"
+  },
+  "specialeditation":{
+    "id": 1,
+    "title": { 
+      "first": "Special Edition mieten und kaufen:",
+      "second":  "Anbieter vergleichen"
+  },
+    "content": {
+      "first": "Angebote aus Ihrer region",
+      "second": "Kostenlos und unverbindlich",
+      "third": "Geprüfte Anbieter"
+    },
+    "image": "/assets/img/FrontPage/SpecialMainpageUpdate.webp"
+  }
+  }

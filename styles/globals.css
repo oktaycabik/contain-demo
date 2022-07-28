@@ -24,12 +24,4 @@ a {
     background: white;
   }
 }
-.transparan{
-  background-color: transparent !important;
-}
-.custom-image{
-  position: relative !important;
-}
-.intro-content{
-  position: absolute !important;
-}
+

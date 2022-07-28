@@ -1,0 +1,42 @@
+{
+   "burocontainer": {
+        "id": 1,
+        "title": { "second": "BüroContainer" },
+        "content": {
+          "first": "Flat Pack Bau es Selbst! Sparen & Spass Haben"
+        },
+        "image": "/assets/img/slid/n/AlleModalBuro.webp"
+      },
+      "wohncontainer":{
+        "id": 1,
+        "title": { "second": "XL Container" },
+        "content": {
+          "first": "Flat Pack Bau es Selbst! Sparen & Spass Haben"
+        },
+        "image": "/assets/img/slid/n/DigerModellerArkaplan.webp"
+      },
+      "sanitacontainer":{
+        "id": 1,
+        "title": { "second": "Sanitärcontainer" },
+        "content": {
+          "first": "Flat Pack Bau es Selbst! Sparen & Spass Haben"
+        },
+        "image": "/assets/img/slid/n/DigerModellerArkaplan.png"
+      },
+      "flatpack":{
+        "id": 1,
+        "title": { "second": "Flat Pack" },
+        "content": {
+          "first": "Flat Pack Bau es Selbst! Sparen & Spass Haben"
+        },
+        "image": "/assets/img/slid/n/DigerModellerArkaplan.webp"
+      },
+      "specialedition":{
+        "id": 1,
+        "title": { "second": "Special Edition" },
+        "content": {
+          "first": "Flat Pack Bau es Selbst! Sparen & Spass Haben"
+        },
+        "image": "/assets/img/slid/n/DigerModellerArkaplan.webp"
+      }
+}
