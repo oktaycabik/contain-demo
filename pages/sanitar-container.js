@@ -5,6 +5,7 @@ import ContainerModal from '../components/ContainerModal'
 import introContainer from "../data/containerIntro.json"
 import alleModal from "../data/containerallemodel.json"
 import AlleModal from '../components/AlleModal'
+import WhyWeComponent from '../components/WhyWeComponent'
 const SanitaContainer = () => {
   const {sanitacontainer} =bannerContainer
   const {sanitacontainers} =introContainer
@@ -14,6 +15,7 @@ const SanitaContainer = () => {
         <ContainerInto data={sanitacontainers}></ContainerInto>
         <ContainerModal data={sanitacontainer}></ContainerModal>
         <AlleModal data={sanitacontainerModal}></AlleModal>
+        <WhyWeComponent></WhyWeComponent>
     </div>
   )
 }
