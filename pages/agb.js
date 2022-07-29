@@ -20,16 +20,16 @@ const Agb = () => {
                         </h2>
                      
                       <p className="text-dark fz-20">
-                        <span className="font-weight-bold d-flex justify-content-center">
+                        <span className="font-bold d-flex justify-content-center">
                           {" "}
                           ALLGEMEINE GESCHÄFTSBEDINGUNGEN
                         </span>
                         <br />
-                        <span className="font-weight-bold">
+                        <span className="font-bold">
                           Geschäftsbedingungen
                         </span>
                         <br />
-                        <span className="font-weight-bold">
+                        <span className="font-bold">
                           I. VERTRAGSSCHLUSS
                         </span>
                         <br />
@@ -61,7 +61,7 @@ const Agb = () => {
                         KUNDEN eine Auftragsbestätigung und
                         Zahlungsinformationen.
                         <br />
-                        <span className="font-weight-bold">
+                        <span className="font-bold">
                           II. ZAHLUNG, LIEFERUNG, LIEFERZEIT ; HAFTUNG DES
                           KUNDEN
                         </span>
@@ -166,7 +166,7 @@ const Agb = () => {
                         Montage kommt, dann können weitere Kosten für einen
                         Supervisor entstehen.
                         <br></br>
-                        <span className="font-weight-bold">
+                        <span className="font-bold">
                           III. ANNAHMEBESTIMMUNGEN
                         </span>
                         <br />
@@ -202,7 +202,7 @@ const Agb = () => {
                         vollständigen Kaufpreis geltend gemacht.
                         <br />
                         <br />
-                        <span className="font-weight-bold">
+                        <span className="font-bold">
                           IV. ZAHLUNGSVERZUG DES KUNDEN; RÜCKTRITT,
                           VERTRAGSSTRAFE UND EIGENTUMSVORBEHALT
                         </span>
@@ -267,7 +267,7 @@ const Agb = () => {
                         Vorschriften entbehrlich ist.
                         <br />
                         <br />
-                        <span className="font-weight-bold">
+                        <span className="font-bold">
                           V. REVISIONEN UND KÜNDIGUNG DURCH DEN KUNDEN
                         </span>
                         <br />
@@ -302,7 +302,7 @@ const Agb = () => {
                         Abschluss der Produktion nicht möglich.
                         <br />
                         <br />
-                        <span className="font-weight-bold">
+                        <span className="font-bold">
                           VI. PFLICHTEN DES KUNDEN UND UNSERE PFLICHTEN
                         </span>
                         <br />
@@ -426,7 +426,7 @@ const Agb = () => {
                         Arbeiten
                         <br />
                         <br />
-                        <span className="font-weight-bold">
+                        <span className="font-bold">
                           VII. GEWÄHRLEISTUNG
                         </span>
                         <br />
@@ -566,7 +566,7 @@ const Agb = () => {
                         Rücktrittsrecht.
                         <br />
                         <br />
-                        <span className="font-weight-bold">
+                        <span className="font-bold">
                           VIII. SONSTIGE HAFTUNG UND VERJÄHRUNG
                         </span>
                         <br />
@@ -624,7 +624,7 @@ const Agb = () => {
                         ist.
                         <br />
                         <br />
-                        <span className="font-weight-bold">
+                        <span className="font-bold">
                           IX. VERTRAULICHKEIT UND VERÖFFENTLICHUNGSRECHT
                         </span>
                         <br />
@@ -646,7 +646,7 @@ const Agb = () => {
                         Werbezwecken zu veröffentlichen.
                         <br />
                         <br />
-                        <span className="font-weight-bold">
+                        <span className="font-bold">
                           X. UMSATZSTEUER UND EXPORTBEDINGUNGEN
                         </span>
                         <br />
@@ -664,7 +664,7 @@ const Agb = () => {
                         in der Herstellerliste aufführen.
                         <br />
                         <br />
-                        <span className="font-weight-bold">
+                        <span className="font-bold">
                           XI. SCHLUSSBESTIMMUNGEN
                         </span>
                         <br />
@@ -701,7 +701,7 @@ const Agb = () => {
                         werden.
                         <br />
                         <br />
-                        <span className="font-weight-bold">
+                        <span className="font-bold">
                           XII. ALLGEMEINE NUTZUNGSBEDINGUNGEN
                         </span>
                         <br />

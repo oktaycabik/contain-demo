@@ -1,0 +1,133 @@
+{
+   "baucontainer": {
+        "id": 1,
+        "title": { 
+          "first": "Baucontainer mieten und kaufen:",
+          "second":  "Anbieter vergleichen"
+      },
+        "content": {
+          "first": "Angebote aus Ihrer region",
+          "second": "Kostenlos und unverbindlich",
+          "third": "Geprüfte Anbieter"
+        },
+        "image": "/assets/img/Bau/BauInnerPageUpdate.webp"
+      },
+     "burocontainer": {
+        "id": 1,
+        "title": { 
+          "first": "Bürocontainer mieten und kaufen:",
+          "second":  "Anbieter vergleichen"
+      },
+        "content": {
+          "first": "Angebote aus Ihrer Region",
+          "second": "Kostenlos und unverbindlich",
+          "third": "Geprüfte Anbieter"
+        },
+        "image": "/assets/img/Buro/BuroInnerDetailUpdate.webp"
+      },
+      "flatpack":{
+        "id": 1,
+        "title": { 
+          "first": "Flatpack mieten und kaufen:",
+          "second":  "Anbieter vergleichen"
+      },
+        "content": {
+          "first": "Angebote aus Ihrer Region",
+          "second": "Kostenlos und unverbindlich",
+          "third": "Geprüfte Anbieter"
+        },
+        "image": "/assets/img/FlatPackMenu/FlatpackMain.webp"
+      },
+     "cafecontainer": {
+        "id": 1,
+        "title": { 
+          "first": "Café-Container mieten und kaufen:",
+          "second":  "Anbieter vergleichen"
+      },
+        "content": {
+          "first": "Angebote aus Ihrer Region",
+          "second": "Kostenlos und unverbindlich",
+          "third": "Geprüfte Anbieter"
+        },
+        "image": "/assets/img/CafeContainerMenu/AnaResim.webp"
+      },
+     "pfortnercontainer": {
+        "id": 1,
+        "title": { 
+          "first": "Pfortnercontainer mieten und kaufen:",
+          "second":  "Anbieter vergleichen"
+      },
+        "content": {
+          "first": "Angebote aus Ihrer Region",
+          "second": "Kostenlos und unverbindlich",
+          "third": "Geprüfte Anbieter"
+        },
+        "image": "/assets/img/Pfortnercontainer2/PfortnercontainerAnaresim.webp"
+      },
+      "sanitarcontainer":{
+        "id": 1,
+        "title": { 
+          "first": "Sanitärcontainer mieten und kaufen:",
+          "second":  "Anbieter vergleichen"
+      },
+        "content": {
+          "first": "Angebote aus Ihrer region",
+          "second": "Kostenlos und unverbindlich",
+          "third": "Geprüfte Anbieter"
+        },
+        "image": "/assets/img/FrontPage/SanitaMainpageUpdate.webp"
+      },
+      "schulcontainer": {
+        "id": 1,
+        "title": { 
+          "first": "Schulcontainer mieten und kaufen:",
+          "second":  "Anbieter vergleichen"
+      },
+        "content": {
+          "first": "Angebote aus Ihrer Region",
+          "second": "Kostenlos und unverbindlich",
+          "third": "Geprüfte Anbieter"
+        },
+        "image": "/assets/img/SchuleContainerMenu/SchuleContainerMenu.webp"
+      },
+     "special" :{
+        "id": 1,
+        "title": { 
+          "first": "Special Edition mieten und kaufen:",
+          "second":  "Anbieter vergleichen"
+      },
+        "content": {
+          "first": "Angebote aus Ihrer region",
+          "second": "Kostenlos und unverbindlich",
+          "third": "Geprüfte Anbieter"
+        },
+        "image": "/assets/img/FrontPage/SpecialMainpageUpdate.webp"
+      },
+     "wohncontainer": {
+        "id": 1,
+        "title": { 
+          "first": "Wohncontainer mieten und kaufen:",
+          "second":  "Anbieter vergleichen"
+      },
+        "content": {
+          "first": "Angebote aus Ihrer Region",
+          "second": "Kostenlos und unverbindlich",
+          "third": "Geprüfte Anbieter"
+        },
+        "image": "/assets/img/WohncontainerMenu/WohnInnerDetail.webp"
+      },
+      "xlWohnContainer":{
+        "id": 1,
+        "title": { 
+          "first": "XL-Wohncontainer mieten und kaufen:",
+          "second":  "Anbieter vergleichen"
+      },
+        "content": {
+          "first": "Angebote aus Ihrer Region",
+          "second": "Kostenlos und unverbindlich",
+          "third": "Geprüfte Anbieter"
+        },
+        "image": "/assets/img/XLWohnContainer/XLWohnContainerMenuBanner.webp"
+      }
+
+}

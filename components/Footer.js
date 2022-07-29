@@ -8,31 +8,31 @@ const Footer = () => {
         <div className="row ">
           <div className="col-lg-2 col-md-2 col-12">
             <h5 className="mt-2 ">ÜBERSICHT</h5>
-            <Link href="/flat-pack">
+            <Link href="/menu/flat-pack">
               <div className="mt-2 footer-color">FlatPack</div>
             </Link>
-            <Link href="/flat-pack">
+            <Link href="/menu/wohncontainer">
               <div className="mt-2 footer-color">Wohncontainer</div>
             </Link>
-            <Link href="/flat-pack">
+            <Link href="/menu/burocontainer">
               <div className="mt-2 footer-color">Bürocontainer</div>
             </Link>
-            <Link href="/flat-pack">
+            <Link href="/menu/xlwonhcontainer">
               <div className="mt-2 footer-color">XL Wohncontainer</div>
             </Link>
-            <Link href="/flat-pack">
+            <Link href="/menu/sanitarcontainer">
               <div className="mt-2 footer-color">Sanitärcontainer</div>
             </Link>
-            <Link href="/flat-pack">
+            <Link href="/menu/pfortnercontainer">
               <div className="mt-2 footer-color">Pförtnercontainer</div>
             </Link>
-            <Link href="/flat-pack">
+            <Link href="/menu/specialcontainer">
               <div className="mt-2 footer-color">Specialcontainer</div>
             </Link>
-            <Link href="/flat-pack">
+            <Link href="/menu/cafe-container">
               <div className="mt-2 footer-color">Cafe-Container</div>
             </Link>
-            <Link href="/flat-pack">
+            <Link href="/menu/schulcontainer">
               <div className="mt-2 footer-color">Schulcontainer</div>
             </Link>
           </div>
@@ -53,7 +53,7 @@ const Footer = () => {
               <div className="mt-2">IMPRESSUM</div>
             </Link>
             <Link href="/uber-uns">
-              <a className="mt-3">ÜBER UNS</a>
+              <div className="mt-3">ÜBER UNS</div>
             </Link>
             <Link href="faq">
               <div className="mt-3">FAQ</div>
