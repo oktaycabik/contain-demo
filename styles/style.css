@@ -236,3 +236,14 @@ align-items: center;
   padding: 32px 24px;
   margin: 10px;
 }
+.menu-contact-button{
+  text-decoration: none;
+  color: white;
+  border: 1px solid #171a20cc;
+  background-color: #ffc009;
+  padding: 10px 30px;
+  border-radius: 50px;
+}
+.menu-contact-button:hover{
+color: #0a0a0a;
+}
