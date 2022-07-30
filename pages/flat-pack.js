@@ -7,9 +7,19 @@ import ContainerColorSelector from '../components/ContainerColorSelector'
 import WhyWeComponent from '../components/WhyWeComponent'
 import FlatPackContarinerColorSelector from "../data/Color-Selector/BuroContainerColor.json"
 import ContainerAnimation from '../components/ContainerAnimation'
-import VideoCorausel from '../components/VideoCorausel'
+import useOnScreen from "../utils/utils";
+import dynamic from "next/dynamic";
+
+const VideoCorausel = dynamic(() => import("../components/VideoCorausel"));
 
 const Shop= () => {
+  const [isChild3Ref, setIsChild3Ref] = React.useState(false);
+  const child3Ref = React.useRef();
+  const child3RefValue = useOnScreen(child3Ref);
+
+  React.useEffect(() => {
+    if (!isChild3Ref) setIsChild3Ref(child3RefValue);
+  }, [child3RefValue]);
   const {flatpackcontainer} =bannerContainer
   const {flatpackcontainers} =introContainer
   return (
@@ -17,7 +27,7 @@ const Shop= () => {
         <ContainerInto data={flatpackcontainers}></ContainerInto>
         <ContainerModal data={flatpackcontainer}></ContainerModal>
         <WhyWeComponent></WhyWeComponent>
-        <VideoCorausel></VideoCorausel>
+        <div ref={child3Ref}>{child3RefValue && <VideoCorausel />}</div>
         <ContainerColorSelector data={FlatPackContarinerColorSelector}></ContainerColorSelector>
          <ContainerAnimation></ContainerAnimation>
     </div>

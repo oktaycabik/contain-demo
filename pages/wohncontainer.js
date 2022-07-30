@@ -11,14 +11,14 @@ import WohnContainerColorSelector from "../data/Color-Selector/WohnContainerColo
 import ContainerAnimation from '../components/ContainerAnimation'
 import useOnScreen from "../utils/utils";
 import dynamic from 'next/dynamic'
-import { Suspense } from 'react'
+
 
 const VideoCorausel = dynamic(() => import('../components/VideoCorausel'))
 const WohnContainer = () => {
   const [isChild3Ref, setIsChild3Ref] =  React.useState(false);
   const child3Ref = React.useRef();
   const child3RefValue = useOnScreen(child3Ref);
-  console.log('first', isChild3Ref)
+
   React.useEffect(() => {
     if (!isChild3Ref)
         setIsChild3Ref(child3RefValue);

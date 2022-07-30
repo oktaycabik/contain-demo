@@ -9,9 +9,21 @@ import WhyWeComponent from '../components/WhyWeComponent'
 import ContainerColorSelector from '../components/ContainerColorSelector'
 import SanitarContarinerColorSelector from "../data/Color-Selector/SanitarContainerColor.json"
 import ContainerAnimation from '../components/ContainerAnimation'
-import VideoCorausel from '../components/VideoCorausel'
+import useOnScreen from "../utils/utils";
+import dynamic from 'next/dynamic'
+
+
+const VideoCorausel = dynamic(() => import('../components/VideoCorausel'))
 
 const SanitaContainer = () => {
+  const [isChild3Ref, setIsChild3Ref] =  React.useState(false);
+  const child3Ref = React.useRef();
+  const child3RefValue = useOnScreen(child3Ref);
+
+  React.useEffect(() => {
+    if (!isChild3Ref)
+        setIsChild3Ref(child3RefValue);
+ }, [child3RefValue])
   const {sanitacontainer} =bannerContainer
   const {sanitacontainers} =introContainer
   const {sanitacontainerModal}=alleModal
@@ -21,8 +33,7 @@ const SanitaContainer = () => {
         <ContainerModal data={sanitacontainer}></ContainerModal>
         <VideoCorausel></VideoCorausel>
         <AlleModal data={sanitacontainerModal}></AlleModal>
-   
-        <WhyWeComponent></WhyWeComponent>
+        <div ref={child3Ref}>{child3RefValue && <VideoCorausel />}</div>
         <ContainerColorSelector data={SanitarContarinerColorSelector}></ContainerColorSelector>
       <ContainerAnimation></ContainerAnimation>
     </div>

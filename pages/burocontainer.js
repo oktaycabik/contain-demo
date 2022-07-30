@@ -11,9 +11,18 @@ import BeforeAndAfterSlider from "../components/BeforeAndAfterSlider";
 import ContainerColorSelector from "../components/ContainerColorSelector";
 import BuroContarinerColorSelector from "../data/Color-Selector/BuroContainerColor.json";
 import ContainerAnimation from "../components/ContainerAnimation";
-import VideoCorausel from "../components/VideoCorausel";
+
+import useOnScreen from "../utils/utils";
+import dynamic from 'next/dynamic'
+const VideoCorausel = dynamic(() => import('../components/VideoCorausel'))
 const Burocontaıner = () => {
- 
+  const [isChild3Ref, setIsChild3Ref] = React.useState(false);
+  const child3Ref = React.useRef();
+  const child3RefValue = useOnScreen(child3Ref);
+
+  React.useEffect(() => {
+    if (!isChild3Ref) setIsChild3Ref(child3RefValue);
+  }, [child3RefValue]);
 
   const { burocontainer } = bannerConttainer;
   const { buroconteiner } = introContainer;
@@ -23,7 +32,7 @@ const Burocontaıner = () => {
       <ContainerInto data={buroconteiner}></ContainerInto>
       {/* <BeforeAndAfterSlider></BeforeAndAfterSlider> */}
       <ContainerModal data={burocontainer}></ContainerModal>
-     {/* <VideoCorausel></VideoCorausel> */}
+      <div ref={child3Ref}>{child3RefValue && <VideoCorausel />}</div>
       <WhyWeComponent></WhyWeComponent>
       <AlleModal data={burocontainerModal}></AlleModal>
       <ContainerColorSelector
