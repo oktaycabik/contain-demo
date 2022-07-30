@@ -9,6 +9,7 @@ import WhyWeComponent from '../components/WhyWeComponent'
 import ContainerColorSelector from "../components/ContainerColorSelector"
 import WohnContainerColorSelector from "../data/Color-Selector/WohnContainerColor.json"
 import ContainerAnimation from '../components/ContainerAnimation'
+import VideoCorausel from '../components/VideoCorausel'
 const WohnContainer = () => {
   const {wohncontainer} =bannerContainer
   const {wohncontainers} =introContainer
@@ -18,6 +19,7 @@ const WohnContainer = () => {
         <ContainerInto data={wohncontainers}></ContainerInto>
         <ContainerModal data={wohncontainer}></ContainerModal>
         <AlleModal data={wohncontainerModal}></AlleModal>
+        <VideoCorausel></VideoCorausel>
         <ContainerColorSelector data={WohnContainerColorSelector}></ContainerColorSelector>
         <WhyWeComponent></WhyWeComponent>
         <ContainerAnimation></ContainerAnimation>

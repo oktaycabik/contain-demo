@@ -7,6 +7,7 @@ import WhyWeComponent from '../components/WhyWeComponent'
 import ContainerColorSelector from '../components/ContainerColorSelector'
 import SpecialContainerColorSelector from "../data/Color-Selector/SpecialContainerColor.json"
 import ContainerAnimation from '../components/ContainerAnimation'
+import VideoCorausel from '../components/VideoCorausel'
 const Burocontaıner = () => {
   const {specialeditation} =bannerContainer
   const {specialeditatons} =introContainer
@@ -15,6 +16,7 @@ const Burocontaıner = () => {
         <ContainerInto data={specialeditatons}></ContainerInto>
         <ContainerModal data={specialeditation}></ContainerModal>
         <WhyWeComponent></WhyWeComponent>
+        <VideoCorausel></VideoCorausel>
         <ContainerColorSelector data={SpecialContainerColorSelector}></ContainerColorSelector>
        <ContainerAnimation></ContainerAnimation>
     </div>
