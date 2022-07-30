@@ -9,7 +9,12 @@ import WhyWeComponent from '../components/WhyWeComponent'
 import ContainerColorSelector from "../components/ContainerColorSelector"
 import WohnContainerColorSelector from "../data/Color-Selector/WohnContainerColor.json"
 import ContainerAnimation from '../components/ContainerAnimation'
-import VideoCorausel from '../components/VideoCorausel'
+
+import dynamic from 'next/dynamic'
+import { Suspense } from 'react'
+const VideoCorausel = dynamic(() => import('../components/VideoCorausel'), {
+  suspense: true,
+})
 const WohnContainer = () => {
   const {wohncontainer} =bannerContainer
   const {wohncontainers} =introContainer
@@ -19,7 +24,9 @@ const WohnContainer = () => {
         <ContainerInto data={wohncontainers}></ContainerInto>
         <ContainerModal data={wohncontainer}></ContainerModal>
         <AlleModal data={wohncontainerModal}></AlleModal>
+        <Suspense fallback={ "Loadi"}>
         <VideoCorausel></VideoCorausel>
+        </Suspense>
         <ContainerColorSelector data={WohnContainerColorSelector}></ContainerColorSelector>
         <WhyWeComponent></WhyWeComponent>
         <ContainerAnimation></ContainerAnimation>

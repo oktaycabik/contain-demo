@@ -9,7 +9,20 @@ const VideoCorausel = () => {
           <iframe
             width="100%"
             height="500px"
-            src="https://www.youtube.com/embed/a8FQaW9XVlU"
+            src="https://www.youtube.com/embed/a8FQaW9XVlU?controls=2"
+            title="YouTube video player"
+            frameBorder="0"
+            
+            className="embed-responsive-item"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen>
+          </iframe>
+          </div>
+          <div className="carousel-item">
+          <iframe
+            width="100%"
+            height="500px"
+            src="https://www.youtube.com/embed/xHqGD4TSAtM?controls=2"
             title="YouTube video player"
             frameBorder="0"
             className="embed-responsive-item"
@@ -21,19 +34,7 @@ const VideoCorausel = () => {
           <iframe
             width="100%"
             height="500px"
-            src="https://www.youtube.com/embed/xHqGD4TSAtM"
-            title="YouTube video player"
-            frameBorder="0"
-            className="embed-responsive-item"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen>
-          </iframe>
-          </div>
-          <div className="carousel-item">
-          <iframe
-            width="100%"
-            height="500px"
-            src="https://www.youtube.com/embed/xLZ0uFr7LKg"
+            src="https://www.youtube.com/embed/xLZ0uFr7LKg?controls=2"
             title="YouTube video player"
             frameBorder="0"
             className="embed-responsive-item"
@@ -45,7 +46,7 @@ const VideoCorausel = () => {
           <iframe
             width="100%"
             height="500px"
-            src="https://www.youtube.com/embed/xLZ0uFr7LKg"
+            src="https://www.youtube.com/embed/xLZ0uFr7LKg?controls=2"
             title="YouTube video player"
             frameBorder="0"
             className="embed-responsive-item"
@@ -57,7 +58,7 @@ const VideoCorausel = () => {
           <iframe
             width="100%"
             height="500px"
-            src= "https://www.youtube.com/embed/hJjpfnFyv74"
+            src= "https://www.youtube.com/embed/hJjpfnFyv74?controls=2"
             title="YouTube video player"
             frameBorder="0"
             className="embed-responsive-item"
@@ -69,7 +70,7 @@ const VideoCorausel = () => {
           <iframe
             width="100%"
             height="500px"
-            src=  "https://www.youtube.com/embed/3JSit_voEqc"
+            src=  "https://www.youtube.com/embed/3JSit_voEqc?controls=2"
             title="YouTube video player"
             frameBorder="0"
             className="embed-responsive-item"
@@ -81,7 +82,7 @@ const VideoCorausel = () => {
           <iframe
             width="100%"
             height="500px"
-            src=   "https://www.youtube.com/embed/jDHpSpilFuU"
+            src=   "https://www.youtube.com/embed/jDHpSpilFuU?controls=2"
             title="YouTube video player"
             frameBorder="0"
             className="embed-responsive-item"
