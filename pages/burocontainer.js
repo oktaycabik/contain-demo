@@ -23,7 +23,7 @@ const Burocontaıner = () => {
       <ContainerInto data={buroconteiner}></ContainerInto>
       {/* <BeforeAndAfterSlider></BeforeAndAfterSlider> */}
       <ContainerModal data={burocontainer}></ContainerModal>
-     <VideoCorausel></VideoCorausel>
+     {/* <VideoCorausel></VideoCorausel> */}
       <WhyWeComponent></WhyWeComponent>
       <AlleModal data={burocontainerModal}></AlleModal>
       <ContainerColorSelector
