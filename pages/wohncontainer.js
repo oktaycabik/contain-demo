@@ -9,24 +9,35 @@ import WhyWeComponent from '../components/WhyWeComponent'
 import ContainerColorSelector from "../components/ContainerColorSelector"
 import WohnContainerColorSelector from "../data/Color-Selector/WohnContainerColor.json"
 import ContainerAnimation from '../components/ContainerAnimation'
-
+import useOnScreen from "../utils/utils";
 import dynamic from 'next/dynamic'
 import { Suspense } from 'react'
-const VideoCorausel = dynamic(() => import('../components/VideoCorausel'), {
-  suspense: true,
-})
+
+const VideoCorausel = dynamic(() => import('../components/VideoCorausel'))
 const WohnContainer = () => {
+  const [isChild3Ref, setIsChild3Ref] =  React.useState(false);
+  const child3Ref = React.useRef();
+  const child3RefValue = useOnScreen(child3Ref);
+  console.log('first', isChild3Ref)
+  React.useEffect(() => {
+    if (!isChild3Ref)
+        setIsChild3Ref(child3RefValue);
+ }, [child3RefValue])
   const {wohncontainer} =bannerContainer
   const {wohncontainers} =introContainer
   const {wohncontainerModal}=alleModal
+ 
+
   return (
     <div>
         <ContainerInto data={wohncontainers}></ContainerInto>
         <ContainerModal data={wohncontainer}></ContainerModal>
         <AlleModal data={wohncontainerModal}></AlleModal>
-        <Suspense fallback={ "Loadi"}>
-        <VideoCorausel></VideoCorausel>
-        </Suspense>
+      
+     
+        <div ref={child3Ref}>
+                 {child3RefValue && <VideoCorausel/>}
+               </div>
         <ContainerColorSelector data={WohnContainerColorSelector}></ContainerColorSelector>
         <WhyWeComponent></WhyWeComponent>
         <ContainerAnimation></ContainerAnimation>
