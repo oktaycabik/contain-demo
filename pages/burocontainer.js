@@ -14,6 +14,7 @@ import ContainerAnimation from "../components/ContainerAnimation";
 
 import useOnScreen from "../utils/utils";
 import dynamic from 'next/dynamic'
+import ContainerDetail from "../components/ContainerDetail";
 const VideoCorausel = dynamic(() => import('../components/VideoCorausel'))
 const Burocontaıner = () => {
   const [isChild3Ref, setIsChild3Ref] = React.useState(false);
@@ -39,6 +40,8 @@ const Burocontaıner = () => {
         data={BuroContarinerColorSelector}
       ></ContainerColorSelector>
       <ContainerAnimation></ContainerAnimation>
+      <ContainerDetail></ContainerDetail>
+      
     </div>
   );
 };

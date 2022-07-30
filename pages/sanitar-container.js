@@ -11,6 +11,7 @@ import SanitarContarinerColorSelector from "../data/Color-Selector/SanitarContai
 import ContainerAnimation from '../components/ContainerAnimation'
 import useOnScreen from "../utils/utils";
 import dynamic from 'next/dynamic'
+import ContainerDetail from '../components/ContainerDetail'
 
 
 const VideoCorausel = dynamic(() => import('../components/VideoCorausel'))
@@ -31,11 +32,12 @@ const SanitaContainer = () => {
     <div>
         <ContainerInto data={sanitacontainers}></ContainerInto>
         <ContainerModal data={sanitacontainer}></ContainerModal>
-        <VideoCorausel></VideoCorausel>
+        
         <AlleModal data={sanitacontainerModal}></AlleModal>
         <div ref={child3Ref}>{child3RefValue && <VideoCorausel />}</div>
         <ContainerColorSelector data={SanitarContarinerColorSelector}></ContainerColorSelector>
       <ContainerAnimation></ContainerAnimation>
+      <ContainerDetail></ContainerDetail>
     </div>
   )
 }

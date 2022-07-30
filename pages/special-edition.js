@@ -10,6 +10,7 @@ import ContainerAnimation from '../components/ContainerAnimation'
 
 import useOnScreen from "../utils/utils";
 import dynamic from "next/dynamic";
+import ContainerDetail from '../components/ContainerDetail'
 
 const VideoCorausel = dynamic(() => import("../components/VideoCorausel"));
 const Burocontaıner = () => {
@@ -30,6 +31,7 @@ const Burocontaıner = () => {
         <div ref={child3Ref}>{child3RefValue && <VideoCorausel />}</div>
         <ContainerColorSelector data={SpecialContainerColorSelector}></ContainerColorSelector>
        <ContainerAnimation></ContainerAnimation>
+       <ContainerDetail></ContainerDetail>
     </div>
   )
 }

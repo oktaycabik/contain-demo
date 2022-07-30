@@ -521,3 +521,36 @@ flex-direction: column;
 align-items: center;
 
 }
+/* contatiner dettail component */
+.detail-img{
+  width: 100%;
+  height: 100%;
+}
+.detail-title{
+  line-height: 1.4;
+  font-weight: 600;
+  font-size: 25px;
+}
+.detail-subtitle{
+  line-height: 1.4;
+    font-weight: 600;
+    font-size: 55px;
+    text-decoration: none !important;
+    color: black;
+   
+}
+.detail-btn{
+  border-color: #171a20cc;
+  color: #fff;
+  background-color: #171a20cc;
+  padding: 10px 30px;
+  border: 1px solid #1e1e1e;
+  border-radius: 50px;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  text-decoration: none;
+}
+.detail-btn:hover{
+  color: white;
+}
