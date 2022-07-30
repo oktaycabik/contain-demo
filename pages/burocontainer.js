@@ -10,6 +10,7 @@ import WhyWeComponent from '../components/WhyWeComponent'
 import BeforeAndAfterSlider from '../components/BeforeAndAfterSlider'
 import ContainerColorSelector from '../components/ContainerColorSelector'
 import BuroContarinerColorSelector from "../data/Color-Selector/BuroContainerColor.json"
+import ContainerAnimation from '../components/ContainerAnimation'
 const Burocontaıner = () => {
  
   const {burocontainer}=bannerConttainer
@@ -23,6 +24,7 @@ const Burocontaıner = () => {
         <WhyWeComponent></WhyWeComponent>
         <AlleModal data={burocontainerModal}></AlleModal>
         <ContainerColorSelector data={BuroContarinerColorSelector}></ContainerColorSelector>
+       <ContainerAnimation></ContainerAnimation>
     </div>
   )
 }

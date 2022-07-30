@@ -21,7 +21,10 @@ const ContainerColorSelector = ({data}) => {
         </div>
         <div className="col-lg-8">
             <div className="row">
-            <img  src={colorImgSrc}/>
+           
+              <img className="color-image" src={colorImgSrc}/>
+            
+         
             </div>
             <div className="mb-4 color-selector">
             {data.map(color=>(

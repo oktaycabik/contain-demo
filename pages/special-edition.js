@@ -6,6 +6,7 @@ import introContainer from "../data/containerIntro.json"
 import WhyWeComponent from '../components/WhyWeComponent'
 import ContainerColorSelector from '../components/ContainerColorSelector'
 import SpecialContainerColorSelector from "../data/Color-Selector/SpecialContainerColor.json"
+import ContainerAnimation from '../components/ContainerAnimation'
 const Burocontaıner = () => {
   const {specialeditation} =bannerContainer
   const {specialeditatons} =introContainer
@@ -15,6 +16,7 @@ const Burocontaıner = () => {
         <ContainerModal data={specialeditation}></ContainerModal>
         <WhyWeComponent></WhyWeComponent>
         <ContainerColorSelector data={SpecialContainerColorSelector}></ContainerColorSelector>
+       <ContainerAnimation></ContainerAnimation>
     </div>
   )
 }

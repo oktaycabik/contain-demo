@@ -6,6 +6,7 @@ import introContainer from "../data/containerIntro.json"
 import ContainerColorSelector from '../components/ContainerColorSelector'
 import WhyWeComponent from '../components/WhyWeComponent'
 import FlatPackContarinerColorSelector from "../data/Color-Selector/BuroContainerColor.json"
+import ContainerAnimation from '../components/ContainerAnimation'
 
 const Shop= () => {
   const {flatpackcontainer} =bannerContainer
@@ -16,6 +17,7 @@ const Shop= () => {
         <ContainerModal data={flatpackcontainer}></ContainerModal>
         <WhyWeComponent></WhyWeComponent>
         <ContainerColorSelector data={FlatPackContarinerColorSelector}></ContainerColorSelector>
+         <ContainerAnimation></ContainerAnimation>
     </div>
   )
 }

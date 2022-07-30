@@ -8,6 +8,7 @@ import AlleModal from '../components/AlleModal'
 import WhyWeComponent from '../components/WhyWeComponent'
 import ContainerColorSelector from '../components/ContainerColorSelector'
 import SanitarContarinerColorSelector from "../data/Color-Selector/SanitarContainerColor.json"
+import ContainerAnimation from '../components/ContainerAnimation'
 
 const SanitaContainer = () => {
   const {sanitacontainer} =bannerContainer
@@ -21,6 +22,7 @@ const SanitaContainer = () => {
    
         <WhyWeComponent></WhyWeComponent>
         <ContainerColorSelector data={SanitarContarinerColorSelector}></ContainerColorSelector>
+      <ContainerAnimation></ContainerAnimation>
     </div>
   )
 }

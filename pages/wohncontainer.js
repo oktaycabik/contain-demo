@@ -8,6 +8,7 @@ import AlleModal from '../components/AlleModal'
 import WhyWeComponent from '../components/WhyWeComponent'
 import ContainerColorSelector from "../components/ContainerColorSelector"
 import WohnContainerColorSelector from "../data/Color-Selector/WohnContainerColor.json"
+import ContainerAnimation from '../components/ContainerAnimation'
 const WohnContainer = () => {
   const {wohncontainer} =bannerContainer
   const {wohncontainers} =introContainer
@@ -19,6 +20,7 @@ const WohnContainer = () => {
         <AlleModal data={wohncontainerModal}></AlleModal>
         <ContainerColorSelector data={WohnContainerColorSelector}></ContainerColorSelector>
         <WhyWeComponent></WhyWeComponent>
+        <ContainerAnimation></ContainerAnimation>
     </div>
   )
 }
