@@ -11,10 +11,10 @@ const VideoCorausel = () => {
             height="500px"
             src="https://www.youtube.com/embed/a8FQaW9XVlU"
             title="YouTube video player"
-            frameborder="0"
+            frameBorder="0"
             className="embed-responsive-item"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen>
+            allowFullscreen>
           </iframe>
           </div>
           <div className="carousel-item">
