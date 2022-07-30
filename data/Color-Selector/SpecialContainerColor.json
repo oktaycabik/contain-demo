@@ -1,0 +1,22 @@
+[
+    {
+      "id": 1,
+      "color": "white",
+      "class": "url(/assets/img/WhiteTexture.webp)",
+      "image": "/assets/img/SpecialRenkler/beyaz.webp"
+    },
+    {
+      "id": 2,
+      "color": "red",
+      "class": "url(/assets/img/Stone.webp)",
+      "image": "/assets/img/SpecialRenkler/granit.webp"
+    },
+    {
+      "id": 3,
+      "color": "green",
+      "class": "url(/assets/img/Wood.jpg)",
+      "image": "/assets/img/SpecialRenkler/tahta.webp"
+    }
+  
+  ]
+  

@@ -6,6 +6,9 @@ import introContainer from "../data/containerIntro.json"
 import alleModal from "../data/containerallemodel.json"
 import AlleModal from '../components/AlleModal'
 import WhyWeComponent from '../components/WhyWeComponent'
+import ContainerColorSelector from '../components/ContainerColorSelector'
+import SanitarContarinerColorSelector from "../data/Color-Selector/SanitarContainerColor.json"
+
 const SanitaContainer = () => {
   const {sanitacontainer} =bannerContainer
   const {sanitacontainers} =introContainer
@@ -15,7 +18,9 @@ const SanitaContainer = () => {
         <ContainerInto data={sanitacontainers}></ContainerInto>
         <ContainerModal data={sanitacontainer}></ContainerModal>
         <AlleModal data={sanitacontainerModal}></AlleModal>
+   
         <WhyWeComponent></WhyWeComponent>
+        <ContainerColorSelector data={SanitarContarinerColorSelector}></ContainerColorSelector>
     </div>
   )
 }
