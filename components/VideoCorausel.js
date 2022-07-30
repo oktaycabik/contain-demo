@@ -14,7 +14,7 @@ const VideoCorausel = () => {
             frameBorder="0"
             className="embed-responsive-item"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowFullscreen>
+            allowFullScreen>
           </iframe>
           </div>
           <div className="carousel-item">
