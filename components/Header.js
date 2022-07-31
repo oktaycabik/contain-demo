@@ -5,7 +5,7 @@ const Header = () => {
     <>
      <header>
       <nav className="navbar navbar-expand-lg navbar-light fixed-top transparan">
-        <div className="container-fluid ">
+        <div className="container-fluid navbar">
           <div>
             <Link href="/">
               <a className="navbar-brand" href="#">
@@ -68,12 +68,8 @@ const Header = () => {
                   <a className="nav-link">Shop</a>
                 </Link>
               </li>
-              <li className="nav-item">
-                <a className="nav-link" href="">
-                  Menu
-                </a>
-              </li>
-              <li className="nav-item">
+             
+              <li  className="nav-item ms-10">
                 <Link href="/kontakt">
                   <a className="nav-link" href="">
                     Kontakt
@@ -82,7 +78,7 @@ const Header = () => {
               </li>
             </ul>
           </div>
-          <div></div>
+          
         </div>
       </nav>
     </header>

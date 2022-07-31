@@ -1,5 +1,6 @@
-import React,{useState} from "react";
+import React, { useState } from "react";
 import products from "../../data/ShopDeutsch.json";
+import Link from "next/link"
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/free-mode";
@@ -8,7 +9,6 @@ import "swiper/css/thumbs";
 import { FreeMode, Navigation, Thumbs } from "swiper";
 import Image from "next/image";
 const Product = ({ product }) => {
-   
   return (
     <div>
       <div className="container-fluid ProductPgBgColor">
@@ -23,28 +23,51 @@ const Product = ({ product }) => {
                   }}
                   loop={true}
                   navigation={true}
-                  
                   modules={[FreeMode, Navigation, Thumbs]}
                   className="mySwiper2"
                 >
                   <SwiperSlide>
-                    <Image width={756} height={534} className="product-page-img" src={product?.image?.ima1} />
+                    <Image
+                      width={756}
+                      height={534}
+                      className="product-page-img"
+                      src={product?.image?.ima1}
+                    />
                   </SwiperSlide>
                   <SwiperSlide>
-                  <Image width={756} height={534}className="product-page-img" src={product?.image?.ima2} />
+                    <Image
+                      width={756}
+                      height={534}
+                      className="product-page-img"
+                      src={product?.image?.ima2}
+                    />
                   </SwiperSlide>
                   <SwiperSlide>
-                  <Image width={756} height={534}className="product-page-img" src={product?.image?.ima3} />
+                    <Image
+                      width={756}
+                      height={534}
+                      className="product-page-img"
+                      src={product?.image?.ima3}
+                    />
                   </SwiperSlide>
                   <SwiperSlide>
-                  <Image width={756} height={534}className="product-page-img" src={product?.image?.ima4} />
+                    <Image
+                      width={756}
+                      height={534}
+                      className="product-page-img"
+                      src={product?.image?.ima4}
+                    />
                   </SwiperSlide>
                   <SwiperSlide>
-                  <Image width={756} height={534} className="product-page-img" src={product?.image?.ima5} />
+                    <Image
+                      width={756}
+                      height={534}
+                      className="product-page-img"
+                      src={product?.image?.ima5}
+                    />
                   </SwiperSlide>
                 </Swiper>
                 <Swiper
-                 
                   loop={true}
                   spaceBetween={5}
                   slidesPerView={5}
@@ -54,28 +77,102 @@ const Product = ({ product }) => {
                   className="mySwiper"
                 >
                   <SwiperSlide>
-                  <Image width={147} height={110} className="product-page-img" src={product?.image?.ima1} />
+                    <Image
+                      width={147}
+                      height={110}
+                      className="product-page-img"
+                      src={product?.image?.ima1}
+                    />
                   </SwiperSlide>
                   <SwiperSlide>
-                  <Image width={147} height={110}  className="product-page-img" src={product?.image?.ima2} />
+                    <Image
+                      width={147}
+                      height={110}
+                      className="product-page-img"
+                      src={product?.image?.ima2}
+                    />
                   </SwiperSlide>
                   <SwiperSlide>
-                  <Image width={147} height={110}  className="product-page-img" src={product?.image?.ima3} />
+                    <Image
+                      width={147}
+                      height={110}
+                      className="product-page-img"
+                      src={product?.image?.ima3}
+                    />
                   </SwiperSlide>
                   <SwiperSlide>
-                  <Image width={147} height={110} className="product-page-img" src={product?.image?.ima4} />
+                    <Image
+                      width={147}
+                      height={110}
+                      className="product-page-img"
+                      src={product?.image?.ima4}
+                    />
                   </SwiperSlide>
                   <SwiperSlide>
-                  <Image width={147} height={110}  className="product-page-img" src={product?.image?.ima5} />
+                    <Image
+                      width={147}
+                      height={110}
+                      className="product-page-img"
+                      src={product?.image?.ima5}
+                    />
                   </SwiperSlide>
                 </Swiper>
               </div>
             </div>
             <div className="col-lg-5 col-md-12 col-sm-12 p-5 bg-white border mt-10">
-              asdasd
+              <div>
+              
+                  <div >
+                    <h4>{product.title}</h4>
+                    <h6 className="fz-18 mt-2">Beschreibung</h6>
+                    <p className="font-italic">{product.content.text6}</p>
+                    <ul className="liProductPageList ml-3">
+                      <li className="fz-18">Mabe</li>
+                      <li className="fz-18">{product.content.text3}</li>
+                      <li className="fz-18">Zustand</li>
+                      <li className="fz-18">{product.content.text5}</li>
+                    </ul>
+                    <h6 className="mt-2 ">sddsd</h6>
+                    <p className="fz-18">sdsd</p>
+                    <h6 className="fz-18 mt-2 ">sdsd</h6>
+                    <p className="fz-18">sdsd</p>
+                    <hr />
+                    <h4 className="fz-18">sdsd</h4>
+                    <Link href="/Kontakt">
+                      <a className="btn-curve btn-bord btn-lit mt-10 ">
+                        <span>Jetzt Anfragen</span>
+                      </a>
+                    </Link>{" "}
+                    <h6 className="fz-18">sadsd</h6>
+                    <div className="d-flex mt-2">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="16"
+                        height="16"
+                        fill="currentColor"
+                        class="bi bi-telephone-fill mr-2 mt-1"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"
+                        />
+                      </svg>
+                      <p>
+                        <a
+                          href="tel:+4923028894880"
+                          className="text-dark fz-18 fw-600"
+                        >
+                         sdsd
+                        </a>
+                      </p>
+                    </div>
+                  </div>
+             
+              </div>
             </div>
           </div>
-          <div className="mt-3 mb-3 pb-5 ">asdas</div>
+          <div className="mt-3 mb-3 pb-5 "></div>
         </div>
       </div>
     </div>
