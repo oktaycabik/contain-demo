@@ -1,11 +1,12 @@
 import React from "react";
 import Link from "next/link";
+import Image from 'next/image'
 const ProductList = ({ product }) => {
   return (
     <>
       <div className="col-md-6 col-12 col-lg-3 mb-4 mb-lg-0 gx-3 mt-2">
         <div className="card text-black">
-          <img src={product.image.ima1} className="card-img-top" alt="iPhone" />
+          <Image width={306} height={229} src={product.image.ima1} className="card-img-top" alt="iPhone" />
           <div className="card-body card-info">
             <div className="text-center mt-1 ">
               <h4 className="card-title">{product.title}</h4>
