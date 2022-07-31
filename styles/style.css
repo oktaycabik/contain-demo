@@ -644,6 +644,9 @@ z-index: 99;
 .card-info{
   min-height: 332px;
 }
+.detail-btn{
+  text-decoration: none !important;
+}
 /* category page */
 .category-list{
   display: flex;
@@ -653,4 +656,14 @@ z-index: 99;
 .product-page-img{
   width: 100% !important;
   height: 100% !important;
+}
+.card-body{
+  position: relative !important ;
+}
+.bottom-btn{
+position: absolute;
+bottom: 15px;
+
+
+
 }

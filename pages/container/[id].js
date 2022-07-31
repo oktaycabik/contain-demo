@@ -6,6 +6,7 @@ import "swiper/css/free-mode";
 import "swiper/css/navigation";
 import "swiper/css/thumbs";
 import { FreeMode, Navigation, Thumbs } from "swiper";
+import Image from "next/image";
 const Product = ({ product }) => {
    
   return (
@@ -27,19 +28,19 @@ const Product = ({ product }) => {
                   className="mySwiper2"
                 >
                   <SwiperSlide>
-                    <img className="product-page-img" src={product?.image?.ima1} />
+                    <Image width={756} height={534} className="product-page-img" src={product?.image?.ima1} />
                   </SwiperSlide>
                   <SwiperSlide>
-                    <img className="product-page-img" src={product?.image?.ima2} />
+                  <Image width={756} height={534}className="product-page-img" src={product?.image?.ima2} />
                   </SwiperSlide>
                   <SwiperSlide>
-                    <img className="product-page-img" src={product?.image?.ima3} />
+                  <Image width={756} height={534}className="product-page-img" src={product?.image?.ima3} />
                   </SwiperSlide>
                   <SwiperSlide>
-                    <img className="product-page-img" src={product?.image?.ima4} />
+                  <Image width={756} height={534}className="product-page-img" src={product?.image?.ima4} />
                   </SwiperSlide>
                   <SwiperSlide>
-                    <img className="product-page-img" src={product?.image?.ima5} />
+                  <Image width={756} height={534} className="product-page-img" src={product?.image?.ima5} />
                   </SwiperSlide>
                 </Swiper>
                 <Swiper
@@ -53,19 +54,19 @@ const Product = ({ product }) => {
                   className="mySwiper"
                 >
                   <SwiperSlide>
-                    <img className="product-page-img" src={product?.image?.ima1} />
+                  <Image width={147} height={110} className="product-page-img" src={product?.image?.ima1} />
                   </SwiperSlide>
                   <SwiperSlide>
-                    <img className="product-page-img" src={product?.image?.ima2} />
+                  <Image width={147} height={110}  className="product-page-img" src={product?.image?.ima2} />
                   </SwiperSlide>
                   <SwiperSlide>
-                    <img className="product-page-img" src={product?.image?.ima3} />
+                  <Image width={147} height={110}  className="product-page-img" src={product?.image?.ima3} />
                   </SwiperSlide>
                   <SwiperSlide>
-                    <img className="product-page-img" src={product?.image?.ima4} />
+                  <Image width={147} height={110} className="product-page-img" src={product?.image?.ima4} />
                   </SwiperSlide>
                   <SwiperSlide>
-                    <img className="product-page-img" src={product?.image?.ima5} />
+                  <Image width={147} height={110}  className="product-page-img" src={product?.image?.ima5} />
                   </SwiperSlide>
                 </Swiper>
               </div>
