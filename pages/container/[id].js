@@ -123,14 +123,14 @@ const Product = ({ product }) => {
               <div>
               
                   <div >
-                    <h4>{product.title}</h4>
+                    <h4>{product?.title}</h4>
                     <h6 className="fz-18 mt-2">Beschreibung</h6>
-                    <p className="font-italic">{product.content.text6}</p>
+                    <p className="font-italic">{product?.content?.text6}</p>
                     <ul className="liProductPageList ml-3">
                       <li className="fz-18">Mabe</li>
-                      <li className="fz-18">{product.content.text3}</li>
+                      <li className="fz-18">{product?.content?.text3}</li>
                       <li className="fz-18">Zustand</li>
-                      <li className="fz-18">{product.content.text5}</li>
+                      <li className="fz-18">{product?.content?.text5}</li>
                     </ul>
                     <h6 className="mt-2 ">sddsd</h6>
                     <p className="fz-18">sdsd</p>
