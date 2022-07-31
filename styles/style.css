@@ -650,3 +650,7 @@ z-index: 99;
  justify-content: center !important;
  flex-wrap: wrap;
 }
+.product-page-img{
+  width: 100% !important;
+  height: 100% !important;
+}
