@@ -1,0 +1,56 @@
+[
+    {
+        "id": "1",
+        "category": "All",
+        "slug": "all"
+    },
+    {
+        "id": "2",
+        "category": "Special",
+        "slug": "special"
+    },
+  
+    {
+        "id": "3",
+        "category": "Cafe Container",
+        "slug": "cafe-container"
+    },
+    {
+        "id": "4",
+        "category": "Sanitärcontainer",
+        "slug": "sanitarcontainer"
+    },
+    {
+        "id": "5",
+        "category": "Bürocontainer",
+        "slug": "burocontainer"
+    },
+    {
+        "id": "6",
+        "category": "Wohncontainer",
+        "slug": "wohncontainer"
+    },
+    {
+        "id": "7",
+        "category": "Pförtnercontainer",
+        "slug": "pfortnercontainer"
+    },
+    {
+        "id": "8",
+        "category": "Lagercontainer",
+        "slug": "lagercontainer"
+    },
+    {
+        "id": "9",
+        "category": "Anlage",
+        "slug": "anlage"
+    },
+    {
+        "id": "10",
+        "category": "Flatpack",
+        "slug": "flatpack"
+    }
+]
+
+
+    

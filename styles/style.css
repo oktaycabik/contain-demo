@@ -519,6 +519,7 @@ box-shadow: 1px 1px 8px 1px #0e0d0d;
 display: flex;
 flex-direction: column;
 align-items: center;
+z-index: 99;
 
 }
 /* contatiner dettail component */
@@ -625,4 +626,27 @@ align-items: center;
 .contact-info-btn:hover{
  
   color: black;
+}
+/* categories page */
+.category-name{
+  
+  color: #000000;
+  text-decoration: none;
+}
+.category-name:hover{
+  color: #000000;
+  text-decoration: none;
+}
+.mt-10{
+  margin-top: 100px;
+}
+/* product page */
+.card-info{
+  min-height: 332px;
+}
+/* category page */
+.category-list{
+  display: flex;
+ justify-content: center !important;
+ flex-wrap: wrap;
 }
