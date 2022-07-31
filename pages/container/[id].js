@@ -27,19 +27,19 @@ const Product = ({ product }) => {
                   className="mySwiper2"
                 >
                   <SwiperSlide>
-                    <img className="product-page-img" src={product.image.ima1} />
+                    <img className="product-page-img" src={product?.image?.ima1} />
                   </SwiperSlide>
                   <SwiperSlide>
-                    <img className="product-page-img" src={product.image.ima2} />
+                    <img className="product-page-img" src={product?.image?.ima2} />
                   </SwiperSlide>
                   <SwiperSlide>
-                    <img className="product-page-img" src={product.image.ima3} />
+                    <img className="product-page-img" src={product?.image?.ima3} />
                   </SwiperSlide>
                   <SwiperSlide>
-                    <img className="product-page-img" src={product.image.ima4} />
+                    <img className="product-page-img" src={product?.image?.ima4} />
                   </SwiperSlide>
                   <SwiperSlide>
-                    <img className="product-page-img" src={product.image.ima5} />
+                    <img className="product-page-img" src={product?.image?.ima5} />
                   </SwiperSlide>
                 </Swiper>
                 <Swiper
@@ -53,19 +53,19 @@ const Product = ({ product }) => {
                   className="mySwiper"
                 >
                   <SwiperSlide>
-                    <img className="product-page-img" src={product.image.ima1} />
+                    <img className="product-page-img" src={product?.image?.ima1} />
                   </SwiperSlide>
                   <SwiperSlide>
-                    <img className="product-page-img" src={product.image.ima2} />
+                    <img className="product-page-img" src={product?.image?.ima2} />
                   </SwiperSlide>
                   <SwiperSlide>
-                    <img className="product-page-img" src={product.image.ima3} />
+                    <img className="product-page-img" src={product?.image?.ima3} />
                   </SwiperSlide>
                   <SwiperSlide>
-                    <img className="product-page-img" src={product.image.ima4} />
+                    <img className="product-page-img" src={product?.image?.ima4} />
                   </SwiperSlide>
                   <SwiperSlide>
-                    <img className="product-page-img" src={product.image.ima5} />
+                    <img className="product-page-img" src={product?.image?.ima5} />
                   </SwiperSlide>
                 </Swiper>
               </div>
