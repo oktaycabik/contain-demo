@@ -1,7 +1,7 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import Link from "next/link";
-const kontakt = () => {
+const Kontakt = () => {
   const form = useRef();
   const handleSubmit=(e)=>{
     e.preventDefault()
@@ -165,4 +165,4 @@ const kontakt = () => {
   );
 };
 
-export default kontakt;
+export default Kontakt;
