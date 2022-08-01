@@ -11,11 +11,12 @@ import BeforeAndAfterSlider from "../components/BeforeAndAfterSlider";
 import ContainerColorSelector from "../components/ContainerColorSelector";
 import BuroContarinerColorSelector from "../data/Color-Selector/BuroContainerColor.json";
 import ContainerAnimation from "../components/ContainerAnimation";
-
+import HomePageShop from "../components/HomePageShop";
 import useOnScreen from "../utils/utils";
-import dynamic from 'next/dynamic'
+import dynamic from "next/dynamic";
 import ContainerDetail from "../components/ContainerDetail";
-const VideoCorausel = dynamic(() => import('../components/VideoCorausel'))
+import buroData from "../data/ShopDeutsch.json"; 
+const VideoCorausel = dynamic(() => import("../components/VideoCorausel"));
 const Burocontaıner = () => {
   const [isChild3Ref, setIsChild3Ref] = React.useState(false);
   const child3Ref = React.useRef();
@@ -24,6 +25,10 @@ const Burocontaıner = () => {
   React.useEffect(() => {
     if (!isChild3Ref) setIsChild3Ref(child3RefValue);
   }, [child3RefValue]);
+  const burofilter = buroData.filter(
+    (intro) =>
+      intro.category === "burocontainer" || intro.category === "special"
+  );
 
   const { burocontainer } = bannerConttainer;
   const { buroconteiner } = introContainer;
@@ -31,6 +36,7 @@ const Burocontaıner = () => {
   return (
     <div>
       <ContainerInto data={buroconteiner}></ContainerInto>
+      <HomePageShop data={burofilter}></HomePageShop>
       {/* <BeforeAndAfterSlider></BeforeAndAfterSlider> */}
       <ContainerModal data={burocontainer}></ContainerModal>
       <div ref={child3Ref}>{child3RefValue && <VideoCorausel />}</div>
@@ -41,7 +47,6 @@ const Burocontaıner = () => {
       ></ContainerColorSelector>
       <ContainerAnimation></ContainerAnimation>
       <ContainerDetail></ContainerDetail>
-      
     </div>
   );
 };

@@ -10,6 +10,7 @@
       "third": "Geprüfte Anbieter"
     },
     "image": "/assets/img/slid/n/AlleModalBuro.webp",
+   
     "href":"/shop/burocontainer"
 },
  "wohncontainer":{
@@ -66,6 +67,7 @@
       "third": "Geprüfte Anbieter"
     },
     "image": "/assets/img/FrontPage/SpecialMainpageUpdate.webp",
+   
     "href":"/shop/special"
   }
   }

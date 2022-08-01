@@ -7,6 +7,7 @@
       "Third": "Direkt ab Werk"
     },
     "image": "/assets/img/FrontPage/BuroMainpageUpdate.webp",
+    "image1": "/assets/img/InnerPage/BurocontainerInnerPageUpdate.webp",
     "href":"/shop/burocontainer"
   },
   "wohncontainers":{
@@ -17,6 +18,7 @@
       "Third": "Direkt ab Werk"
     },
     "image": "/assets/img/FrontPage/XLMainpageUpdate.webp",
+    "image1": "/assets/img/InnerPage/XLInnerPageUpdate.webp",
     "href":"/shop/wohncontainer"
   },
   "sanitacontainers":{
@@ -27,7 +29,7 @@
       "Third": "Direkt ab Werk"
     },
     "image": "/assets/img/FrontPage/SanitaMainpageUpdate.webp",
-    "image1": "/assets/img/FrontPage/SanitaMobilMainpageUpdate.webp",
+    "image1": "/assets/img/Innerpage/SanitaInnerPageUpdate.webp",
     "href":"/shop/sanitarcontainer"
   },
   "flatpackcontainers": {
@@ -38,6 +40,7 @@
       "Third": "Direkt ab Werk"
     },
     "image": "/assets/img/FrontPage/FlatpackMainPage.webp",
+    "image1": "/assets/img/InnerPage/FlatpackinnerPage.webp",
     "href":"/shop/flatpack"
   },
   "specialeditatons":{
@@ -48,6 +51,7 @@
       "Third": "Direkt ab Werk"
     },
     "image": "/assets/img/FrontPage/SpecialMainpageUpdate.webp",
+    "image1": "/assets/img/InnerPage/SpecialEdditionInnerPageUpdate.webp",
     "href":"/shop/special"
     
   }
