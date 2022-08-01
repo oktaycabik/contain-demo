@@ -15,6 +15,7 @@ const HomePageShop = ({ data }) => {
         slidesPerView={1}
         spaceBetween={10}
         navigation={true}
+        loop={true}
         breakpoints={{
           640: {
             slidesPerView: 2,
@@ -35,7 +36,7 @@ const HomePageShop = ({ data }) => {
    
   {
     data.map(product=>(
-        <SwiperSlide>
+        <SwiperSlide key={product.id}>
             <Link href={`/container/${product.id}`}> 
 <div className=" mb-4 mb-lg-0 gx-3 mt-2 cursor">
         <div className="card text-black">
