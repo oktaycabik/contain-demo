@@ -69,6 +69,18 @@
   color: white;
   font-size: 13px;
 }
+.footer-mid{
+  background-color: #656565;
+}
+.footer-mid p{
+margin: 0;
+}
+.footer-mid-bot{
+  display: flex;
+  justify-content: center;
+  padding: 15px 0;
+  margin-top: 30px;
+}
 
 /* Alle Model */
 .allemodel-img {
@@ -96,68 +108,32 @@
   color: rgb(0, 0, 0);
 }
 /* Footer Components */
-
-.medium-footer {
-  background-image: linear-gradient(to top right, black, gray);
-  color: #f8f9fa;
-
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  padding: 60px;
+footer{
+  background-image: radial-gradient(circle, rgb(255, 255, 255) 0%, rgb(226, 226, 226) 0%, rgb(203, 203, 203) 0%, rgb(197, 197, 197) 0%, rgba(86, 86, 86, 1) 57%, rgba(40, 40, 40, 1) 100%) !important;
+  color: #fff;
 }
-.mid-footer-bot {
+
+.footer-top{
   display: flex;
-  justify-content: space-between;
-  margin-top: 30px;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 0;
 }
-
-.contact-tag {
-  font-size: 16px;
-  line-height: 1.4;
-  font-weight: 600;
+.footer-top .logo{
+  width: 100px;
+  height: 60px;
 }
-.footer-info {
-  font-weight: 700;
-  font-size: 15px;
+.footer-mid{
+  padding: 50px 0;
+  
+ 
 }
-.footer-contact-title {
-  font-weight: 700;
-  font-size: 15px;
-}
-.footer-info-text {
-  font-size: 15px;
-  font-weight: 500;
-}
-.footer-bottom {
-  background-color: #262123 !important;
-}
-.footer-top {
-  display: flex;
-}
-.footer-logo {
-  width: 200px;
-  height: 120px;
-}
-
-.footer {
-  background-color: #0a0a0a;
-  width: 100%;
-  padding: 50px 24px;
-  bottom: 0;
-  color: white;
-}
-.footer-color {
-  color: #ec4a40;
-  line-height: 21px;
-}
-@media only screen and (max-width: 770px) {
-  .footer {
-    display: flex !important;
-    flex-direction: column !important;
-    justify-content: center !important;
-    align-items: center !important;
-    text-align: center;
+@media only screen and (max-width: 400px) {
+  .footer-bot .footer-text{
+    font-size: 10px;
+  }
+  .footer-mid-bot .footer-bot-text{
+    font-size: 15px !important;
   }
 }
 /* WhyWe Components */
@@ -190,7 +166,9 @@
   transform: scale(1.1);
   transition: transform 0.2s;
 }
-
+.text-45{
+  font-size: 45px !important;
+}
 .display-4 {
   font-size: 25px !important;
   font-weight: 300;

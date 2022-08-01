@@ -4,6 +4,7 @@ import Script from "next/script";
 import Layout from "../components/Layout";
 import "../styles/style.css";
 import "../styles/globals.css";
+// import "../styles/styleLight.css"
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function MyApp({ Component, pageProps }) {
