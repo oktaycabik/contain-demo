@@ -783,3 +783,13 @@ floatemail {
   height: 45px!important;
   
 }
+.cursor-home-shop{
+  cursor: pointer; 
+  transform: scale(1);
+}
+.cursor-home-shop:hover{
+  cursor: pointer; 
+
+    box-shadow: 3px 40px 4px 2px rgb(0 0 0 / 10%);
+}
+ 

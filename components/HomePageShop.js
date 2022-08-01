@@ -38,7 +38,7 @@ const HomePageShop = ({ data }) => {
     data.map(product=>(
         <SwiperSlide key={product.id}>
             <Link href={`/container/${product.id}`}> 
-<div className=" mb-4 mb-lg-0 gx-3 mt-2 cursor">
+<div className=" mb-4 mb-lg-0 gx-3 mt-2 cursor-home-shop">
         <div className="card text-black">
           <Image
             width={306}
