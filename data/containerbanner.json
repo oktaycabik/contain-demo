@@ -9,7 +9,8 @@
       "second": "Kostenlos und unverbindlich",
       "third": "Geprüfte Anbieter"
     },
-    "image": "/assets/img/slid/n/AlleModalBuro.webp"
+    "image": "/assets/img/slid/n/AlleModalBuro.webp",
+    "href":"/shop/burocontainer"
 },
  "wohncontainer":{
     "id": 1,
@@ -22,7 +23,8 @@
       "second": "Kostenlos und unverbindlich",
       "third": "Geprüfte Anbieter"
     },
-    "image": "/assets/img/FrontPage/XLMainpageUpdate.webp"
+    "image": "/assets/img/FrontPage/XLMainpageUpdate.webp",
+    "href":"/shop/wohncontainer"
   },
   "sanitacontainer": {
     "id": 1,
@@ -35,7 +37,8 @@
       "second": "Kostenlos und unverbindlich",
       "third": "Geprüfte Anbieter"
     },
-    "image": "/assets/img/FrontPage/SanitaMainpageUpdate.webp"
+    "image": "/assets/img/FrontPage/SanitaMainpageUpdate.webp",
+    "href":"/shop/sanitarcontainer"
   },
  "flatpackcontainer" :{
     "id": 1,
@@ -48,7 +51,8 @@
       "second": "Kostenlos und unverbindlich",
       "third": "Geprüfte Anbieter"
     },
-    "image": "/assets/img/FlatPackMenu/FlatpackMain.webp"
+    "image": "/assets/img/FlatPackMenu/FlatpackMain.webp",
+    "href":"/shop/flatpack"
   },
   "specialeditation":{
     "id": 1,
@@ -61,6 +65,7 @@
       "second": "Kostenlos und unverbindlich",
       "third": "Geprüfte Anbieter"
     },
-    "image": "/assets/img/FrontPage/SpecialMainpageUpdate.webp"
+    "image": "/assets/img/FrontPage/SpecialMainpageUpdate.webp",
+    "href":"/shop/special"
   }
   }

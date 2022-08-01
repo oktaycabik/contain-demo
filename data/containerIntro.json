@@ -6,7 +6,8 @@
       "first": "Wo Sie auch sind, Ihr Bürocontainer kommt immer mit!",
       "Third": "Direkt ab Werk"
     },
-    "image": "/assets/img/FrontPage/BuroMainpageUpdate.webp"
+    "image": "/assets/img/FrontPage/BuroMainpageUpdate.webp",
+    "href":"/shop/burocontainer"
   },
   "wohncontainers":{
     "id": 1,
@@ -15,7 +16,8 @@
       "first": "mehr Raum, mehr Komfort, mehr Freiheit mit XL 3x7 Container",
       "Third": "Direkt ab Werk"
     },
-    "image": "/assets/img/FrontPage/XLMainpageUpdate.webp"
+    "image": "/assets/img/FrontPage/XLMainpageUpdate.webp",
+    "href":"/shop/wohncontainer"
   },
   "sanitacontainers":{
     "id": 1,
@@ -25,7 +27,8 @@
       "Third": "Direkt ab Werk"
     },
     "image": "/assets/img/FrontPage/SanitaMainpageUpdate.webp",
-    "image1": "/assets/img/FrontPage/SanitaMobilMainpageUpdate.webp"
+    "image1": "/assets/img/FrontPage/SanitaMobilMainpageUpdate.webp",
+    "href":"/shop/sanitarcontainer"
   },
   "flatpackcontainers": {
     "id": 1,
@@ -34,7 +37,8 @@
       "first": "Flat Pack Bau es Selbst! Sparen & Spass Haben",
       "Third": "Direkt ab Werk"
     },
-    "image": "/assets/img/FrontPage/FlatpackMainPage.webp"
+    "image": "/assets/img/FrontPage/FlatpackMainPage.webp",
+    "href":"/shop/flatpack"
   },
   "specialeditatons":{
     "id": 1,
@@ -43,7 +47,8 @@
       "first": "Mit Containhaus werden Träume wahr",
       "Third": "Direkt ab Werk"
     },
-    "image": "/assets/img/FrontPage/SpecialMainpageUpdate.webp"
+    "image": "/assets/img/FrontPage/SpecialMainpageUpdate.webp",
+    "href":"/shop/special"
     
   }
 }

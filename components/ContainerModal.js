@@ -1,5 +1,5 @@
 import React from "react";
-
+import Link from "next/link"
 const ContainerModal = ({ data }) => {
   return (
     <>
@@ -13,7 +13,9 @@ const ContainerModal = ({ data }) => {
           <p>{data.content.first}</p>
           <p>{data.content.second}</p>
           <p>{data.content.third}</p>
+          <Link href={`${data.href}`}>
           <button className="banner-button">JETZT ZUM SHOP</button>
+          </Link>
         </div>
       </div>
     </>
