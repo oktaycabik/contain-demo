@@ -28,10 +28,11 @@
 
       "fifteen": "Die Materialien, die in den Containern von Container Haus verwendet werden, spiegeln unsere Qualität wider. Contain Haus achtet auf eine sensible und saubere Verarbeitung. Die erste Priorität von Contain Haus ist der Anspruch und die Zufriedenheit des Kunden.",
       "sixteen": "Flatpack-Container können als Bürocontainer in Bauten, Start-up-Projekten, Farmen, landwirtschaftlichen Flächen, Corona-Testeinheiten, Sportstätten, Ticketschaltern, Konzerten, Basaren und vielen ähnlichen Bereichen eingesetzt werden.",
-      "image1": "/assets/img/FlatPackMenu/FlatpackContainerBauensie.webp",
-      "image2": "/assets/img/FlatPackMenu/SparenUndSpaBHabenMit.webp",
-      "image3": "/assets/img/FlatPackMenu/OkologischeUndUmweltfreundliche.webp",
-      "image4": "/assets/img/FlatPackMenu/MaterialqualitatUndHandwerkskunst.webp"
+      "image1": "/assets/img/FlatPackMenu/FlatpackContainerBauensie.jpg",
+      "image2": "/assets/img/FlatPackMenu/SparenUndSpaBHabenMit.jpg",
+      "image3": "/assets/img/FlatPackMenu/OkologischeUndUmweltfreundliche.jpg",
+      "image4": "/assets/img/FlatPackMenu/MaterialqualitatUndHandwerkskunst.jpg",
+      "image5": "/assets/img/FlatPackMenu/1.jpg"
     }
   },
   "baucontainerContent": {
@@ -114,12 +115,12 @@
       "twentyEight": "Die Lage gefällt Ihnen nicht? Ihre Verkäufe sind trotz Machbarkeitsstudie nicht gut? Bewegen Sie Ihren Shop, wohin Sie wollen. So gestalten Sie Ihren Gewerbeumzug flexibel und reduzieren Risiken. Bürocontainer-Preise für Start-up-Projekte sind immer günstiger, da sie die Nutzer direkt vom Hersteller, also ab Werk von Contain Haus, erreichen. Gerade bei der Auswahl von Toiletten- und Bürocontainern wird der Preis nur der Toilette hinzugerechnet, um Ihnen den günstigsten Preis anbieten zu können. Um den Preis für die Anmietung von Bürocontainern zu erfahren, wenden Sie sich an unsere Kundenberater, die darauf warten, Ihnen zu helfen.",
       "twentyNine": "Auch für gebrauchte Bürocontainer stehen wir Ihnen mit attraktiven Angeboten und Alternativen zur Verfügung.",
 
-      "image1": "/assets/img/BurocontainerMenu/Burogeschichte.webp",
-      "image2": "/assets/img/BurocontainerMenu/TechnikImBuro.webp",
+      "image1": "/assets/img/BurocontainerMenu/Burogeschichte.jpg",
+      "image2": "/assets/img/BurocontainerMenu/TechnikImBuro.jpg",
       "image3": "/assets/img/BurocontainerMenu/Burocontainer.webp",
       "image4": "/assets/img/BurocontainerMenu/MietburocontainerPreisliste.webp",
-      "image5": "/assets/img/BurocontainerMenu/WarumSieBurocontainerBevorzugen.webp",
-      "image6": "/assets/img/BurocontainerMenu/AbmessungenDesBurocontainers.webp",
+      "image5": "/assets/img/BurocontainerMenu/WarumSieBurocontainerBevorzugen.jpg",
+      "image6": "/assets/img/BurocontainerMenu/AbmessungenDesBurocontainers.jpg",
       "image7": "/assets/img/BurocontainerMenu/BurocontainerfurStartUpProjekte.webp",
       "image8": "/assets/img/BurocontainerMenu/PreiseFurBurocontainer.webp"
     }
@@ -144,8 +145,10 @@
       "eidth": "Contain Haus Cafe Container wurde entworfen, indem die Langlebigkeit, Materialqualität und Eleganz im Vordergrund standen. Die Schall- und Wärmedämmung ist auf einem guten Niveau. Sie können sich schnell an unsere Verkaufsberater wenden, um Preise für Café-Container zu erhalten.",
       "ninth": "Contain Haus stellt seine Produkte im eigenen Werk her und minimiert so die Kosten. Mit Contain Haus ist es nicht mehr schwierig, ein eigenes Café zu eröffnen! Sehr leicht!",
 
-      "image1": "/assets/img/CafeContainerMenu/WarumSolltenSieCafeContainerBevorzugen.webp",
-      "image2": "/assets/img/CafeContainerMenu/Prise.webp"
+      "image1": "/assets/img/CafeContainerMenu/WarumSolltenSieCafeContainerBevorzugen.jpg",
+      "image2": "/assets/img/CafeContainerMenu/Prise.jpeg",
+      "image3": "/assets/img/CafeContainerMenu/4.jpeg",
+      "image4": "/assets/img/CafeContainerMenu/5.jpeg"
     }
   },
   "pfortcontainerContent": {

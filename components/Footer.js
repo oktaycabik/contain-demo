@@ -264,7 +264,7 @@ const Footer = () => {
               <Link href="/menu/burocontainer">
                 <div className="mt-3 cursor footer-color">Bürocontainer</div>
               </Link>
-              <Link href="/menu/xlwonhcontainer">
+              <Link href="/menu/xlwohncontainer">
                 <div className="mt-3 cursor footer-color">XL Wohncontainer</div>
               </Link>
               <Link href="/menu/sanitarcontainer">
@@ -308,7 +308,7 @@ const Footer = () => {
               <Link href="agb">
                 <div className="mt-3 cursor footer-color">AGB</div>
               </Link>
-              <Link href="catolog">
+              <Link href="https://www.containhaus.de/assets/img/KATALOG.pdf">
                 <div className="mt-3 cursor footer-color">CATALOG HERUNTERLADEN</div>
               </Link>
             </div>

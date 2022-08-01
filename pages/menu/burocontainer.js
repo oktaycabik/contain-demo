@@ -10,7 +10,7 @@ const Burocontainer = () => {
   
   return (
     <div>
-      <MenuBanner data={burocontainer}></MenuBanner>
+     
        <MenuContentBuroContainer data={burocontainerContent}></MenuContentBuroContainer> 
        <MenuContact data={"Fordern Sie jetzt Ihren Bürocontainer an!"}></MenuContact>
     </div>
