@@ -18,7 +18,7 @@ const Header = () => {
             </Link>
 
             <button
-              class="navbar-toggler"
+              className="navbar-toggler"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#navbarSupportedContent"
@@ -28,8 +28,8 @@ const Header = () => {
             >
               <span className="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul className="navbar-nav ms-auto pl-lg-5 pl-0">
+            <div className="collapse navbar-collapse " id="navbarSupportedContent">
+              <ul className="navbar-nav ms-auto pl-lg-5 pl-0 text-center">
                 <li className="nav-item">
                   <Link href="/burocontainer">
                     <a className="nav-link" aria-current="page" href="#">
@@ -66,7 +66,7 @@ const Header = () => {
                   </Link>
                 </li>
               </ul>
-              <ul className="navbar-nav ms-auto">
+              <ul className="navbar-nav ms-auto text-center">
                 <li className="nav-item cta-btn">
                   <a 
                   className="nav-link"
@@ -108,7 +108,7 @@ const Header = () => {
           />
         </div>
         <div className="offcanvas-body">
-        <ul className="navbar-nav ms-auto pl-lg-5 pl-0">
+        <ul className="navbar-nav ms-auto pl-lg-5 pl-0 ">
                 <li className="nav-item">
                   <Link href="/menu/burocontainer">
                     <a className="nav-link" aria-current="page" href="#">
