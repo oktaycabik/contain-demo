@@ -108,7 +108,7 @@ margin: 0;
   color: rgb(0, 0, 0);
 }
 /* Footer Components */
-footer{
+/* footer{
   background-image: radial-gradient(circle, rgb(255, 255, 255) 0%, rgb(226, 226, 226) 0%, rgb(203, 203, 203) 0%, rgb(197, 197, 197) 0%, rgba(86, 86, 86, 1) 57%, rgba(40, 40, 40, 1) 100%) !important;
   color: #fff;
 }
@@ -135,6 +135,34 @@ footer{
   .footer-mid-bot .footer-bot-text{
     font-size: 15px !important;
   }
+} 
+
+*/
+.medium-footer {
+  background-image: linear-gradient(to top right, black, gray);
+  color: #f8f9fa;
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 60px;
+}
+.mid-footer-bot {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.footer-logo {
+  width: 200px;
+  height: 120px;
+}
+
+.footer {
+  background-color: #0a0a0a;
+  width: 100%;
+  padding: 50px 24px;
+  bottom: 0;
+  color: white;
 }
 /* WhyWe Components */
 .why-we {
