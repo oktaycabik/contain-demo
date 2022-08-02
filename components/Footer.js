@@ -253,7 +253,7 @@ const Footer = () => {
       <footer className="footer">
         <div className="container">
           <div className="row ">
-            <div className="col-lg-2 col-md-2 col-12 ms-5">
+            <div className="col-lg-2 col-md-2 col-12 ">
               <h5 className="mt-2 footer-head">ÜBERSICHT</h5>
               <Link href="/menu/flat-pack">
                 <div className="mt-3 cursor footer-color">FlatPack</div>
