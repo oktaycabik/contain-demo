@@ -9,7 +9,8 @@ import ContainerAnimation from '../components/ContainerAnimation'
 import useOnScreen from "../utils/utils";
 import dynamic from "next/dynamic";
 import ContainerDetail from '../components/ContainerDetail'
-
+import intro2Data from "../data/ShopDeutsch.json"; 
+import HomePageShop from '../components/HomePageShop'
 const VideoCorausel = dynamic(() => import("../components/VideoCorausel"));
 
 const Shop= () => {
@@ -20,12 +21,12 @@ const Shop= () => {
   React.useEffect(() => {
     if (!isChild3Ref) setIsChild3Ref(child3RefValue);
   }, [child3RefValue]);
-
   const {flatpackcontainers} =introContainer
   return (
     <div>
         <ContainerInto data={flatpackcontainers}></ContainerInto>
 
+        <HomePageShop data={intro2Data}></HomePageShop>
 
         <div ref={child3Ref}>{child3RefValue && <VideoCorausel />}</div>
         <ContainerColorSelector data={FlatPackContarinerColorSelector}></ContainerColorSelector>

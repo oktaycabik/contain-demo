@@ -43,7 +43,7 @@ const HomePageShop = ({ data }) => {
           {data.map((Val) => {
             return (
 
-              <SplideSlide>
+              <SplideSlide key={Val.id}>
 
                 <div
                   className="card my-3 py-3 col-12 "
