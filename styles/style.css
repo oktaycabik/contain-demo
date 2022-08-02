@@ -685,9 +685,7 @@ p {
   font-weight: 500;
 }
 .navbar-catalog{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  
   padding-top: 5px;
   background-color: #f8f9fa;
   font-weight: 600;
@@ -792,4 +790,23 @@ floatemail {
 
     box-shadow: 3px 40px 4px 2px rgb(0 0 0 / 10%);
 }
- 
+ .navbar-info{
+  display: flex;
+  justify-content: flex-end;
+  
+  align-items: center;
+ }
+ .navbar-info-span {
+  margin: 0 12px !important;
+ }
+ @media only screen and (max-width: 590px) {
+  .navbar-info {
+   display: flex;
+   flex-direction: column;
+   
+   justify-content: center;
+  }
+  .navbar-info-span {
+    margin: 0 !important;
+   }
+}

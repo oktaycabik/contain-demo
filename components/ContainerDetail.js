@@ -27,7 +27,7 @@ const ContainerDetail = () => {
 
                         <Link href="/assets/img/TeknikDetaylar.pdf" >
                           <a className="detail-btn mt-3" id="PdfDetail" target="_blank">
-                            <span>Weiterlesen</span>
+                            <span className="text-light">Weiterlesen</span>
                           </a>
                         </Link>
                         

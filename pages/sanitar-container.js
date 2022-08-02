@@ -4,7 +4,7 @@ import bannerContainer from "../data/containerbanner.json"
 import ContainerModal from '../components/ContainerModal'
 import introContainer from "../data/containerIntro.json"
 import alleModal from "../data/containerallemodel.json"
-import AlleModal from '../components/AlleModal'
+
 import WhyWeComponent from '../components/WhyWeComponent'
 import ContainerColorSelector from '../components/ContainerColorSelector'
 import SanitarContarinerColorSelector from "../data/Color-Selector/SanitarContainerColor.json"
@@ -32,8 +32,8 @@ const SanitaContainer = () => {
     <div>
         <ContainerInto data={sanitacontainers}></ContainerInto>
         <ContainerModal data={sanitacontainer}></ContainerModal>
+        <WhyWeComponent></WhyWeComponent>
         
-        <AlleModal data={sanitacontainerModal}></AlleModal>
         <div ref={child3Ref}>{child3RefValue && <VideoCorausel />}</div>
         <ContainerColorSelector data={SanitarContarinerColorSelector}></ContainerColorSelector>
       <ContainerAnimation></ContainerAnimation>

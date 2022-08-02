@@ -34,7 +34,7 @@ const ProductList = ({ product }) => {
               </Link>
 
               <Link href={`/container/${product.id}`}>
-                <a className="btn btn-dark detail-btn flex-fill ms-1">
+                <a className="btn btn-dark text-light detail-btn flex-fill ms-1">
                   Details
                 </a>
               </Link>

@@ -3,94 +3,142 @@ import Link from "next/link";
 const Header = () => {
   return (
     <>
-      <header role="banner">
-        <nav className="navbar navbar-expand-md navbar-light bg-light fixed-top">
-          <div className="container">
-            <Link href="/">
-              <a className="navbar-brand" href="#">
-                <img
-                  height={72}
-                  width={120}
-                  src="https://www.containhaus.de/assets/img/RedBlack.webp"
-                  alt=""
+      <header role="banner ">
+        <div className="fixed-top">
+          <div className="navbar-catalog ">
+            <div className="navbar-info"> 
+            <span className=" navbar-info-span">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                className="bi bi-telephone-fill me-1"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"
                 />
-              </a>
-            </Link>
+              </svg>
+              <Link href="https://www.containhaus.de/assets/img/KATALOG.pdf">
+                +49 2302 889 4880
+              </Link>
+            </span>
 
-            <button
-              className="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span className="navbar-toggler-icon"></span>
-            </button>
-            <div className="collapse navbar-collapse " id="navbarSupportedContent">
-              <ul className="navbar-nav ms-auto pl-lg-5 pl-0 text-center">
-                <li className="nav-item">
-                  <Link href="/burocontainer">
-                    <a className="nav-link" aria-current="page" href="#">
-                      Bürocontainer
-                    </a>
-                  </Link>
-                </li>
-                <li className="nav-item">
-                  <Link href="/wohncontainer">
-                    <a className="nav-link" href="#">
-                      XL Wohncontainer
-                    </a>
-                  </Link>
-                </li>
-
-                <li className="nav-item">
-                  <Link href="/sanitar-container">
-                    <a className="nav-link">Sanitär Container</a>
-                  </Link>
-                </li>
-                <li className="nav-item">
-                  <Link href="/flat-pack">
-                    <a className="nav-link">Flat Pack</a>
-                  </Link>
-                </li>
-                <li className="nav-item">
-                  <Link href="/special-edition">
-                    <a className="nav-link">Special Edition</a>
-                  </Link>
-                </li>
-                <li className="nav-item">
-                  <Link href="/shop/all">
-                    <a className="nav-link">Shop</a>
-                  </Link>
-                </li>
-              </ul>
-              <ul className="navbar-nav ms-auto text-center">
-                <li className="nav-item cta-btn">
-                  <a 
-                  className="nav-link"
-                    type="button"
-                    data-bs-toggle="offcanvas"
-                    data-bs-target="#offcanvasRight"
-                    aria-controls="offcanvasRight"
-                  >
-                    Menu
-                  </a>
-                </li>
-                <li className="nav-item cta-btn">
-                  <Link href="/kontakt">
-                    <a className="nav-link" href="">
-                      Kontakt
-                    </a>
-                  </Link>
-                </li>
-              </ul>
+            <span className=" navbar-info-span">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                className="bi bi-envelope-fill me-2"
+                viewBox="0 0 16 16"
+              >
+                <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z" />
+              </svg>
+              <Link href="https://www.containhaus.de/assets/img/KATALOG.pdf">
+              info@containhaus.de
+              </Link>
+            </span>
+    
+            <span className=" navbar-info-span">
+              <Link href="https://www.containhaus.de/assets/img/KATALOG.pdf">
+                CATALOG
+              </Link>
+            </span>
             </div>
           </div>
-        </nav>
-      </header>
+          <nav className="navbar navbar-expand-md navbar-light bg-light ">
+            <div className="container">
+              <Link href="/">
+                <a className="navbar-brand" href="#">
+                  <img
+                    height={72}
+                    width={120}
+                    src="https://www.containhaus.de/assets/img/RedBlack.webp"
+                    alt=""
+                  />
+                </a>
+              </Link>
 
+              <button
+                className="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span className="navbar-toggler-icon"></span>
+              </button>
+              <div
+                className="collapse navbar-collapse "
+                id="navbarSupportedContent"
+              >
+                <ul className="navbar-nav ms-auto pl-lg-5 pl-0 text-center">
+                  <li className="nav-item">
+                    <Link href="/burocontainer">
+                      <a className="nav-link" aria-current="page" href="#">
+                        Bürocontainer
+                      </a>
+                    </Link>
+                  </li>
+                  <li className="nav-item">
+                    <Link href="/wohncontainer">
+                      <a className="nav-link" href="#">
+                        XL Wohncontainer
+                      </a>
+                    </Link>
+                  </li>
+
+                  <li className="nav-item">
+                    <Link href="/sanitar-container">
+                      <a className="nav-link">Sanitär Container</a>
+                    </Link>
+                  </li>
+                  <li className="nav-item">
+                    <Link href="/flat-pack">
+                      <a className="nav-link">Flat Pack</a>
+                    </Link>
+                  </li>
+                  <li className="nav-item">
+                    <Link href="/special-edition">
+                      <a className="nav-link">Special Edition</a>
+                    </Link>
+                  </li>
+                  <li className="nav-item">
+                    <Link href="/shop/all">
+                      <a className="nav-link">Shop</a>
+                    </Link>
+                  </li>
+                </ul>
+                <ul className="navbar-nav ms-auto text-center">
+                  <li className="nav-item cta-btn">
+                    <a
+                      className="nav-link"
+                      type="button"
+                      data-bs-toggle="offcanvas"
+                      data-bs-target="#offcanvasRight"
+                      aria-controls="offcanvasRight"
+                    >
+                      Menu
+                    </a>
+                  </li>
+                  <li className="nav-item cta-btn">
+                    <Link href="/kontakt">
+                      <a className="nav-link" href="">
+                        Kontakt
+                      </a>
+                    </Link>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </header>
 
       <div
         className="offcanvas offcanvas-end"
@@ -108,65 +156,62 @@ const Header = () => {
           />
         </div>
         <div className="offcanvas-body">
-        <ul className="navbar-nav ms-auto pl-lg-5 pl-0 ">
-                <li className="nav-item">
-                  <Link href="/menu/burocontainer">
-                    <a className="nav-link" aria-current="page" href="#">
-                      Bürocontainer
-                    </a>
-                  </Link>
-                </li>
-                <li className="nav-item">
-                  <Link href="/menu/xlwohncontainer">
-                    <a className="nav-link" href="#">
-                      XL Wohncontainer
-                    </a>
-                  </Link>
-                </li>
-                <li className="nav-item">
-                  <Link href="/menu/wohncontainer">
-                    <a className="nav-link" href="#">
-                    Wohncontainer
-                    </a>
-                  </Link>
-                </li>
-                <li className="nav-item">
-                  <Link href="/menu/sanitarcontainer">
-                    <a className="nav-link">Sanitär Container</a>
-                  </Link>
-                </li>
-                <li className="nav-item">
-                  <Link href="/menu/flat-pack">
-                    <a className="nav-link">Flat Pack</a>
-                  </Link>
-                </li>
-                <li className="nav-item">
-                  <Link href="/menu/specialcontainer">
-                    <a className="nav-link">Special Edition</a>
-                  </Link>
-                </li>
-                <li className="nav-item">
-                  <Link href="/menu/schulcontainer">
-                    <a className="nav-link">Scuhulcontainer</a>
-                  </Link>
-                </li>
-                <li className="nav-item">
-                  <Link href="/menu/pfortnercontainer">
-                    <a className="nav-link">Pfortcontainer</a>
-                  </Link>
-                </li>
-                <li className="nav-item">
-                  <Link href="/menu/cafe-container">
-                    <a className="nav-link">Cafe Container</a>
-                  </Link>
-                </li>
-                <li className="nav-item">
-                  <Link href="/shop/all">
-                    <a className="nav-link">Shop</a>
-                  </Link>
-                </li>
-              </ul>
-           
+          <ul className="navbar-nav ms-auto pl-lg-5 pl-0 ">
+            <li className="nav-item">
+              <a
+                href="/menu/burocontainer"
+                className="nav-link"
+                aria-current="page"
+              >
+                Bürocontainer
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="/menu/xlwohncontainer">
+                XL Wohncontainer
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="/menu/wohncontainer">
+                Wohncontainer
+              </a>
+            </li>
+            <li className="nav-item">
+              <a href="/menu/sanitarcontainer" className="nav-link">
+                Sanitär Container
+              </a>
+            </li>
+            <li className="nav-item">
+              <a href="/menu/flat-pack" className="nav-link">
+                Flat Pack
+              </a>
+            </li>
+            <li className="nav-item">
+              <a href="/menu/specialcontainer" className="nav-link">
+                Special Edition
+              </a>
+            </li>
+            <li className="nav-item">
+              <a href="/menu/schulcontainer" className="nav-link">
+                Scuhulcontainer
+              </a>
+            </li>
+            <li className="nav-item">
+              <a href="/menu/pfortnercontainer" className="nav-link">
+                Pfortcontainer
+              </a>
+            </li>
+            <li className="nav-item">
+              <a href="/menu/cafe-container" className="nav-link">
+                Cafe Container
+              </a>
+            </li>
+            <li className="nav-item">
+              <a href="/shop/all" className="nav-link">
+                Shop
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
       {/* <header className="fixed-top">
