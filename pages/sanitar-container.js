@@ -1,9 +1,8 @@
 import React from 'react'
 import ContainerInto from '../components/ContainerInto'
-import bannerContainer from "../data/containerbanner.json"
-import ContainerModal from '../components/ContainerModal'
+
 import introContainer from "../data/containerIntro.json"
-import alleModal from "../data/containerallemodel.json"
+
 
 import WhyWeComponent from '../components/WhyWeComponent'
 import ContainerColorSelector from '../components/ContainerColorSelector'
@@ -25,17 +24,18 @@ const SanitaContainer = () => {
     if (!isChild3Ref)
         setIsChild3Ref(child3RefValue);
  }, [child3RefValue])
-  const {sanitacontainer} =bannerContainer
+
   const {sanitacontainers} =introContainer
-  const {sanitacontainerModal}=alleModal
+  
   return (
     <div>
         <ContainerInto data={sanitacontainers}></ContainerInto>
-        <ContainerModal data={sanitacontainer}></ContainerModal>
-        <WhyWeComponent></WhyWeComponent>
+      
+       
         
         <div ref={child3Ref}>{child3RefValue && <VideoCorausel />}</div>
         <ContainerColorSelector data={SanitarContarinerColorSelector}></ContainerColorSelector>
+        <WhyWeComponent></WhyWeComponent>
       <ContainerAnimation></ContainerAnimation>
       <ContainerDetail></ContainerDetail>
     </div>

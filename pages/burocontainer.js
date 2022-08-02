@@ -39,11 +39,12 @@ const Burocontaıner = () => {
       {/* <BeforeAndAfterSlider></BeforeAndAfterSlider> */}
       <ContainerModal data={burocontainer}></ContainerModal>
       <div ref={child3Ref}>{child3RefValue && <VideoCorausel />}</div>
-      <WhyWeComponent></WhyWeComponent>
+      
 
       <ContainerColorSelector
         data={BuroContarinerColorSelector}
       ></ContainerColorSelector>
+      <WhyWeComponent></WhyWeComponent>
       <ContainerAnimation></ContainerAnimation>
       <ContainerDetail></ContainerDetail>
     </div>

@@ -1,37 +1,37 @@
 [
   {
     "id": 1,
-    "color": "white",
+    "color": "Weiß",
     "class": "/assets/img/PaintIcon/White_Paint.png",
     "image": "/assets/img/BurocontainerRenkleri/snowLight.png"
   },
   {
     "id": 2,
-    "color": "red",
+    "color": "Rot",
     "class": "/assets/img/PaintIcon/Red_Paint.png",
     "image": "/assets/img/BurocontainerRenkleri/red.png"
   },
   {
     "id": 3,
-    "color": "green",
+    "color": "Grün",
     "class": "/assets/img/PaintIcon/Green_Paint.png",
     "image": "/assets/img/BurocontainerRenkleri/green.png"
   },
   {
     "id": 4,
-    "color": "blue",
+    "color": "Blau",
     "class": "/assets/img/PaintIcon/Blue_Paint.png",
     "image": "/assets/img/BurocontainerRenkleri/blue.png"
   },
   {
     "id": 5,
-    "color": "light-white",
+    "color": "Grau",
     "class": "/assets/img/PaintIcon/Gray_Paint.png",
     "image": "/assets/img/BurocontainerRenkleri/light.png"
   },
   {
     "id": 6,
-    "color": "black",
+    "color": "Schwarz",
     "class": "/assets/img/PaintIcon/Black__Paint.png",
     "image": "/assets/img/BurocontainerRenkleri/black.png"
   }
