@@ -41,9 +41,9 @@ const Burocontaıner = () => {
       <div ref={child3Ref}>{child3RefValue && <VideoCorausel />}</div>
       
 
-      <ContainerColorSelector
+      {/* <ContainerColorSelector
         data={BuroContarinerColorSelector}
-      ></ContainerColorSelector>
+      ></ContainerColorSelector> */}
       <WhyWeComponent></WhyWeComponent>
       <ContainerAnimation></ContainerAnimation>
       <ContainerDetail></ContainerDetail>
