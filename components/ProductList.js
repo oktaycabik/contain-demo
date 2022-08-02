@@ -11,6 +11,7 @@ const ProductList = ({ product }) => {
             height={229}
             src={product.image.ima1}
             className="card-img-top"
+            priority
             alt="iPhone"
           />
           <div className="card-body card-info">

@@ -1,8 +1,7 @@
 import React from "react";
 
 import ContainerInto from "../components/ContainerInto";
-import ContainerModal from "../components/ContainerModal";
-import bannerConttainer from "../data/containerbanner.json";
+
 import introContainer from "../data/containerIntro.json";
 
 import WhyWeComponent from "../components/WhyWeComponent";
@@ -29,23 +28,21 @@ const Burocontaıner = () => {
       intro.category === "burocontainer" || intro.category === "special"
   );
 
-  const { burocontainer } = bannerConttainer;
   const { buroconteiner } = introContainer;
 
   return (
     <div>
-      <ContainerInto data={buroconteiner}></ContainerInto>
-      <HomePageShop data={burofilter}></HomePageShop>
+      <ContainerInto data={buroconteiner}/>
+      <HomePageShop data={burofilter}/>
 
-      <ContainerModal data={burocontainer}></ContainerModal>
       {/* <div ref={child3Ref}>{child3RefValue && <VideoCorausel />}</div> */}
 
       <ContainerColorSelector
         data={BuroContarinerColorSelector}
-      ></ContainerColorSelector>
-      <WhyWeComponent></WhyWeComponent>
-      <ContainerAnimation></ContainerAnimation>
-      <ContainerDetail></ContainerDetail>
+      />
+      <WhyWeComponent/>
+      <ContainerAnimation/>
+      <ContainerDetail/>
     </div>
   );
 };

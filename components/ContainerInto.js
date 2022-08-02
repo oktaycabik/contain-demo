@@ -1,8 +1,9 @@
 import Link from "next/link";
 import { useRouter } from "next/router";
 import windowSize from "../utils/windowSize";
+import Image from "next/image"
 const ContainerInto = ({ data }) => {
-  const [width, height] = windowSize();
+  const [width] = windowSize();
 
   const router = useRouter();
   const test = () => {
@@ -19,19 +20,24 @@ const ContainerInto = ({ data }) => {
     }
   };
 
-  console.log(test());
+
   return (
-    <div className="intro-img" style={{ backgroundImage: `url(${test()})` }}>
-      <div className="intro-content">
+  
+  <>
+     <div className="intro-img" style={{ backgroundImage: `url(${test()})` }}>
+       <div className="intro-content">
         <h1 className="mt-1 fw-bold">{data.title.second}</h1>
 
         <h5 className="mt-1  text-danger">Direkt ab Werk</h5>
-        <h5 className="mt-2 text-light">{data.content.first}</h5>
+         <h5 className="mt-2 text-light">{data.content.first}</h5>
         <Link href={`${data.href}`}>
-          <button className="intro-button">HIER GEHT'S WEITTER</button>
-        </Link>
-      </div>
-    </div>
+           <button className="intro-button">HIER GEHT'S WEITTER</button>
+         </Link>
+       </div>
+     </div>
+  
+  </>
+   
   );
 };
 

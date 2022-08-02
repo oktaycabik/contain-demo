@@ -38,6 +38,7 @@ const ContainerColorSelector = ({ data }) => {
                     width={50}
                     height={50}
                     src={color.class}
+                    priority
                   />
                 </div>
               ))}
