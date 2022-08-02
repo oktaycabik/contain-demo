@@ -253,7 +253,7 @@ const Footer = () => {
       <footer className="footer">
         <div className="container">
           <div className="row ">
-            <div className="col-lg-2 col-md-2 col-12">
+            <div className="col-lg-2 col-md-2 col-12 ms-5">
               <h5 className="mt-2 footer-head">ÜBERSICHT</h5>
               <Link href="/menu/flat-pack">
                 <div className="mt-3 cursor footer-color">FlatPack</div>
@@ -293,7 +293,7 @@ const Footer = () => {
               <div className="mt-3 footer-color">+49 173 622 1062</div>
               <div className="mt-3 footer-color">info@containhaus.de</div>
             </div>
-            <div className="col-lg-2 col-md-2 col-12 gx-5 ">
+            <div className="col-lg-2 col-md-2 col-12  ">
               {" "}
               <h5 className="mt-2 cursor head-footer footer-head">WEITERE SEITEN</h5>
               <Link href="/impressum">
@@ -313,7 +313,7 @@ const Footer = () => {
               </Link>
             </div>
 
-            <div className="col-lg-6 col-md-6 col-12 gx-5 ">
+            <div className="col-lg-4 mx-auto col-md-6 col-12  ">
               <div className="footer-top ">
                 <Image
                  height={100}

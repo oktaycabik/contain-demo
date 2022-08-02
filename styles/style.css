@@ -946,3 +946,10 @@ floatemail {
 
     box-shadow: 3px 40px 4px 2px rgb(0 0 0 / 10%);
 }
+@media only screen and (max-width: 590px) {
+  .navbar-catalog {
+   display: none;
+  
+  }
+ 
+}
