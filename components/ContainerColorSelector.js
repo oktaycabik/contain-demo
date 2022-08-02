@@ -11,7 +11,7 @@ const ContainerColorSelector = ({ data }) => {
     <>
       <div className="row color-select justify-content-center">
         <div className="col-lg-7 d-flex mt-5 paddingg">
-          <Image width={950} height={500} className="" src={colorImgSrc} />
+          <img width={950} height={500} className="" src={colorImgSrc} />
         </div>
 
         <div className="col-lg-3  gx-5 ">
