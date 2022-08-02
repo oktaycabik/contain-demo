@@ -1,38 +1,41 @@
-import React,{useState} from "react";
+import React, { useState } from "react";
 import Link from "next/link";
-const ContainerColorSelector = ({data}) => {
-    const [colorImgSrc, setColorImgSrc] = useState(data[1].image)
-    const handleChangeColor=(src)=>{
-        setColorImgSrc(src)
-    }
+import Image from "next/image";
+const ContainerColorSelector = ({ data }) => {
+  const [colorImgSrc, setColorImgSrc] = useState(data[1].image);
+  const handleChangeColor = (src) => {
+    setColorImgSrc(src);
+  };
+  console.log("data[1].class", data[1].class);
   return (
     <>
-      <div className="row">
-        <div className="col-lg-4">
-          <div className="card p-5">
-            <div className="card-title text-center">+ 210</div>
-            <div className="card-title text-center">Farbtöne Machen</div>
-            <div className="card-title text-center">individuell</div>
-            <div className="card-text ">
-            Bring Farbe ins spiel! Egal ob Anthrazit oder in Pink, Sie bestimmen welche Farbe ihr Container haben soll. Mit mehr als 210 Farbvariationen der RAL Pantone Katalog, können Sie ihren Container Lackieren lassen.
-            </div>
-            <img className="mt-2" src="/assets/img/slid/n/ContentSide.webp"/>
+      <div className="row color-select justify-content-center">
+        <div className="col-lg-7 d-flex mt-5 paddingg">
+          <Image width={950} height={500} className="" src={colorImgSrc} />
+        </div>
+
+        <div className="col-lg-3  gx-5 ">
+          <div className="text-start">
+          <h1 className="mb-4 justify-content-center d-flex ">Paint</h1>
+          <div className="paint-icons">
+            {data.map((color) => (
+              <div
+                style={{ backgroundImage: `${color.class}` }}
+                className="container-style mx-1 d-flex justify-content-center"
+                onMouseOver={() => handleChangeColor(color.image)}
+                key={color.id}
+              >
+                <Image
+                  className="img-fluid"
+                  width={50}
+                  height={50}
+                  src={color.class}
+                />
+              </div>
+            ))}
+          </div>
           </div>
         </div>
-        <div className="col-lg-8">
-            <div className="row">
-           
-              <img className="color-image" src={colorImgSrc}/>
-            
-         
-            </div>
-            <div className="mb-4 color-selector">
-            {data.map(color=>(
-                <div style={{backgroundImage:`${color.class}`}} className="container-style mx-4" onMouseOver={()=>handleChangeColor(color.image)} key={color.id}></div>
-            ))}
-            </div>
-        </div>
-        
       </div>
     </>
   );

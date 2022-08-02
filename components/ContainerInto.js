@@ -1,16 +1,27 @@
-import React, { useRef } from "react";
+import {useEffect, useState} from 'react';
 import Image from "next/image";
 import Link from "next/link"
 import { useRouter } from 'next/router'
+import windowSize from "../utils/windowSize"
 const ContainerInto = ({data}) => {
+  const [width, height] = windowSize();
+console.log('width', width)
   const router = useRouter()
   const test =()=>{
     if(router.asPath ==="/"){
+      if(width < 768){
+        return data.mobileImage
+      }
       return data.image
     }else{
+      if(width < 768){
+        return data.mobileImage1
+      }
       return data.image1
     }
   }
+
+ console.log(test()) 
   return (
     <div className='intro-img'  style={{ backgroundImage: `url(${test()})` }}>
     <div className="intro-content">
@@ -27,3 +38,4 @@ const ContainerInto = ({data}) => {
 };
 
 export default ContainerInto;
+

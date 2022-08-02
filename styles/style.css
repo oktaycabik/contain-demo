@@ -810,3 +810,14 @@ floatemail {
     margin: 0 !important;
    }
 }
+.color-select{
+  display: flex; 
+  align-items: center !important;
+}
+.paint-icons{
+  display: flex; 
+}
+
+.paddingg{
+  padding:2rem!important;
+}

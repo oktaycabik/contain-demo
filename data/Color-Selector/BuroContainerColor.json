@@ -2,37 +2,37 @@
   {
     "id": 1,
     "color": "white",
-    "class": "linear-gradient(90deg, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 100%)",
-    "image": "/assets/img/BurocontainerRenkleri/beyaz.webp"
+    "class": "/assets/img/PaintIcon/White_Paint.png",
+    "image": "/assets/img/BurocontainerRenkleri/snowLight.png"
   },
   {
     "id": 2,
     "color": "red",
-    "class": "linear-gradient(90deg, rgb(215, 55, 55) 0%, rgb(133, 0, 0) 100%)",
-    "image": "/assets/img/BurocontainerRenkleri/kirmizi.webp"
+    "class": "/assets/img/PaintIcon/Red_Paint.png",
+    "image": "/assets/img/BurocontainerRenkleri/red.png"
   },
   {
     "id": 3,
     "color": "green",
-    "class": "linear-gradient(90deg, rgb(0, 108, 0) 0%, rgb(52, 119, 52) 100%)",
-    "image": "/assets/img/BurocontainerRenkleri/yesil.webp"
+    "class": "/assets/img/PaintIcon/Green_Paint.png",
+    "image": "/assets/img/BurocontainerRenkleri/green.png"
   },
   {
     "id": 4,
     "color": "blue",
-    "class": "linear-gradient(90deg, rgb(0, 13, 153) 0%, rgb(3, 86, 230) 100%)",
-    "image": "/assets/img/BurocontainerRenkleri/mavi.webp"
+    "class": "/assets/img/PaintIcon/Blue_Paint.png",
+    "image": "/assets/img/BurocontainerRenkleri/blue.png"
   },
   {
     "id": 5,
     "color": "light-white",
-    "class": "inear-gradient(90deg, rgb(206, 202, 202) 0%, rgb(189, 185, 185) 100%)",
-    "image": "/assets/img/BurocontainerRenkleri/kirikBeyaz.webp"
+    "class": "/assets/img/PaintIcon/Gray_Paint.png",
+    "image": "/assets/img/BurocontainerRenkleri/light.png"
   },
   {
     "id": 6,
     "color": "black",
-    "class": "linear-gradient(90deg, rgb(80, 78, 78) 0%, rgb(90, 88, 88) 100%)",
-    "image": "/assets/img/BurocontainerRenkleri/siyah.webp"
+    "class": "/assets/img/PaintIcon/Black__Paint.png",
+    "image": "/assets/img/BurocontainerRenkleri/black.png"
   }
 ]
