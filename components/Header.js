@@ -197,7 +197,7 @@ const Header = () => {
             </li>
             <li className="nav-item">
               <a href="/menu/schulcontainer" className="nav-link">
-                Scuhulcontainer
+                Schulcontainer
               </a>
             </li>
             <li className="nav-item">

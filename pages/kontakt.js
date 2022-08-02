@@ -1,24 +1,32 @@
-import React, { useRef } from 'react';
-import emailjs from '@emailjs/browser';
+import React, { useRef } from "react";
+import emailjs from "@emailjs/browser";
 import Link from "next/link";
 const Kontakt = () => {
   const form = useRef();
-  const handleSubmit=(e)=>{
-    e.preventDefault()
-    emailjs.sendForm('service_i27pohm', 'template_tc6zprw', form.current, 'vD0aLFyj2SUyVjsx_')
-      .then((result) => {
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    emailjs
+      .sendForm(
+        "service_h3vossg",
+        "template_1511ijd",
+        form.current,
+        "rcXGSNcChmM6BMPmu"
+      )
+      .then(
+        (result) => {
           console.log(result.text);
-      }, (error) => {
+        },
+        (error) => {
           console.log(error.text);
-      });
-  
-  }
+        }
+      );
+  };
   return (
     <>
-      <div className="contact mb-4">
+      <div className="contact mb-5">
         <div className="container">
-          <div className="row">
-            <div className="col-lg-6 col-md-12 col-12 mt-4">
+          <div className="row align-items-center">
+            <div className="col-lg-4 col-md-12 mx-auto col-12 ">
               <h2>Kontaktieren Sie uns</h2>
               <div className="d-flex mt-4">
                 <svg
@@ -100,37 +108,65 @@ const Kontakt = () => {
                       id="PdfDetail"
                       target="_blank"
                     >
-                      <span>Catalog herunterladen</span>
+                      <span className="text-dark">Catalog herunterladen</span>
                     </a>
                   </Link>
                 </h5>
               </div>
             </div>
-            <div className="col-lg-6 col-md-12 col-12">
+            <div className="col-lg-5 col-md-12 col-12">
               <div className="card mt-4 mb-4">
-                <form ref={form} onSubmit={handleSubmit} className="contact-form">
+                <form
+                  ref={form}
+                  onSubmit={handleSubmit}
+                  className="contact-form"
+                >
                   <label className="row">
                     Name Nachname
-                    <input type="text" name="user_name" className="contact-input" />
+                    <input
+                      type="text"
+                      name="name"
+                      className="contact-input"
+                    />
                   </label>
                   <label className="row">
                     Telefon (Pflichtfeld)
-                    <input type="text" name="user_phone" className="contact-input" />
+                    <input
+                      type="tel"
+                      name="number"
+                      className="contact-input"
+                    />
                   </label>
                   <label className="row">
                     E-mail
-                    <input type="email" name="user_email" className="contact-input" />
+                    <input
+                      type="email"
+                      name="email"
+                      className="contact-input"
+                    />
                   </label>
                   <label className="row">
                     Liefeadresse
-                    <input  type="text" name="user_adres" className="contact-input" />
+                    <input
+                      type="text"
+                      name="lieferadresse"
+                      className="contact-input"
+                    />
                   </label>
                   <label className="row">
                     Nachrict
-                    <textarea name="user_info" type="text" cols="40" rows="5" className="contact-textarea" />
+                    <textarea
+                      name="Message"
+                      type="text"
+                      cols="40"
+                      rows="5"
+                      className="contact-textarea"
+                    />
                   </label>
                   <div className="d-flex justify-content-center">
-                    <button type="submit" value="Send" className="contact-btn">Senden</button>
+                    <button type="submit" value="Send" className="contact-btn">
+                      Senden
+                    </button>
                   </div>
                 </form>
               </div>
