@@ -38,7 +38,7 @@ const SanitaContainer = () => {
       <HomePageShop data={Sanitarfilter}></HomePageShop>
        
         
-        <div ref={child3Ref}>{child3RefValue && <VideoCorausel />}</div>
+        {/* <div ref={child3Ref}>{child3RefValue && <VideoCorausel />}</div> */}
         <ContainerColorSelector data={SanitarContarinerColorSelector}></ContainerColorSelector>
         <WhyWeComponent></WhyWeComponent>
       <ContainerAnimation></ContainerAnimation>

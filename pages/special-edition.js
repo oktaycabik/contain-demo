@@ -33,7 +33,7 @@ const Burocontaıner = () => {
         <ContainerInto data={specialeditatons}></ContainerInto>
         <HomePageShop data={Specialfilter}></HomePageShop>
         <WhyWeComponent></WhyWeComponent>
-        <div ref={child3Ref}>{child3RefValue && <VideoCorausel />}</div>
+        {/* <div ref={child3Ref}>{child3RefValue && <VideoCorausel />}</div> */}
         {/* <ContainerColorSelector data={SpecialContainerColorSelector}></ContainerColorSelector> */}
        <ContainerAnimation></ContainerAnimation>
        <ContainerDetail></ContainerDetail>

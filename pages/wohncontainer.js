@@ -37,7 +37,7 @@ const WohnContainer = () => {
   
     <HomePageShop data={burofilter}></HomePageShop>
 
-      <div ref={child3Ref}>{child3RefValue && <VideoCorausel />}</div>
+      {/* <div ref={child3Ref}>{child3RefValue && <VideoCorausel />}</div> */}
       <ContainerColorSelector
         data={WohnContainerColorSelector}
       ></ContainerColorSelector>
