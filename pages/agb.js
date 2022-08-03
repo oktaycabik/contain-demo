@@ -2,6 +2,11 @@ import React from "react";
 import Link from "next/link"
 const Agb = () => {
   return (
+    <> 
+      <Head>
+        <title>Contain Haus | AGB </title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
     <header className="mt-100">
       <div>
    
@@ -798,7 +803,7 @@ const Agb = () => {
               </div>
      
       </div>
-    </header>
+    </header> </>
   );
 };
 

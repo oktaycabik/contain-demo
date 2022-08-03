@@ -1,9 +1,14 @@
 import React from "react";
 import Link from "next/link";
+import Head from "next/head";
 const Überuns = () => {
   return (
    
       <>
+      <Head>
+        <title>Contain Haus | Über uns </title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
         <div className="container agb-content">
           <div className="row mb-90 pb-30">
             <div className="col-lg-12">

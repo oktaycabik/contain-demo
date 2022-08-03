@@ -15,6 +15,7 @@ import dynamic from "next/dynamic";
 import ContainerDetail from "../components/ContainerDetail";
 import buroData from "../data/ShopDeutsch.json";
 const VideoCorausel = dynamic(() => import("../components/VideoCorausel"));
+import Head from 'next/head'
 const Burocontaıner = () => {
   const [isChild3Ref, setIsChild3Ref] = React.useState(false);
   const child3Ref = React.useRef();
@@ -32,6 +33,10 @@ const Burocontaıner = () => {
 
   return (
     <div>
+        <Head>
+        <title>Contain Haus | Bürocontainer Preise kaufen </title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
       <ContainerInto data={buroconteiner}/>
       <HomePageShop data={burofilter}/>
 

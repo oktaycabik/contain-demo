@@ -11,6 +11,7 @@ import dynamic from "next/dynamic";
 import ContainerDetail from '../components/ContainerDetail'
 import intro2Data from "../data/ShopDeutsch.json"; 
 import HomePageShop from '../components/HomePageShop'
+import Head from 'next/head'
 const VideoCorausel = dynamic(() => import("../components/VideoCorausel"));
 
 const Shop= () => {
@@ -24,6 +25,10 @@ const Shop= () => {
   const {flatpackcontainers} =introContainer
   return (
     <div>
+         <Head>
+        <title>Contain Haus | Bürocontainer Wohncontainer kaufen Flatpack Container</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
         <ContainerInto data={flatpackcontainers}></ContainerInto>
 
         <HomePageShop data={intro2Data}></HomePageShop>

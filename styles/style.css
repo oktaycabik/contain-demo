@@ -830,7 +830,6 @@ floatemail {
 }
 /*------------------------------------------------------- font-weight end -------------------------------------------------------*/
 
-
 .video-wrapper {
   min-height: 500px;
 }
@@ -904,13 +903,21 @@ floatemail {
   -ms-flex-align: center;
   align-items: center;
 }
-
+.VideoDes{
+  display: block!important;
+}
+.VideoMob{
+  display: none!important;
+}
 .full-width {
   width: 100% !important;
 }
 .cursor-home-shop{
   cursor: pointer; 
   transform: scale(1);
+}
+.ArowVideoPrev{
+  left: 2em!important;
 }
 .cursor-home-shop:hover{
   cursor: pointer; 
@@ -1015,14 +1022,7 @@ floatemail {
 .footerdisMo {
   display: none!important;
 }
-@media only screen and (max-width: 786px) {
-  .footerdisMo {
-    display: block!important;
-  }
-  .footerdisDes{
-    display: none!important;
-  }
-}
+
 .floatemailMobil {
   z-index: 10 !important;
   bottom: 1rem;
@@ -1037,3 +1037,16 @@ floatemail {
   position: fixed;
   left: 2rem;
 }
+@media only screen and (max-width: 786px) {
+  .footerdisMo {
+    display: block!important;
+  }
+  .footerdisDes{
+    display: none!important;
+  }
+  .VideoDes{
+    display: none!important;
+  }
+  .VideoMob{
+    display: block!important;
+  } }

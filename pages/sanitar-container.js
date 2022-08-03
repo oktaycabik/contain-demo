@@ -13,7 +13,7 @@ import dynamic from 'next/dynamic'
 import ContainerDetail from '../components/ContainerDetail'
 import intro2Data from "../data/ShopDeutsch.json"; 
 import HomePageShop from '../components/HomePageShop'
-
+import Head from 'next/head'
 const VideoCorausel = dynamic(() => import('../components/VideoCorausel'))
 
 const SanitaContainer = () => {
@@ -30,6 +30,10 @@ const SanitaContainer = () => {
   
   return (
     <div>
+        <Head>
+        <title>Contain Haus | Sanitärcontainer mit wc und Dushe Preise kaufen </title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
         <ContainerInto data={sanitacontainers}></ContainerInto>
       <HomePageShop data={Sanitarfilter}></HomePageShop>
        

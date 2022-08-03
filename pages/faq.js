@@ -2,6 +2,11 @@ import React from "react";
 import Link from "next/link"
 const Faq = () => {
   return (
+  <>
+   <Head>
+        <title>Contain Haus | FAQ </title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
     <header className="faq-content">
       <div>
         <div className="container ">
@@ -204,6 +209,7 @@ const Faq = () => {
         </div>
       </div>
     </header>
+     </>
   );
 };
 

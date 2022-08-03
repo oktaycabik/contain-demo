@@ -1,6 +1,7 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import Link from "next/link";
+import Head from "next/head";
 const Kontakt = () => {
   const form = useRef();
   const handleSubmit = (e) => {
@@ -23,6 +24,10 @@ const Kontakt = () => {
   };
   return (
     <>
+         <Head>
+        <title>Contain Haus | Kontakt </title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
       <div className="contact mb-5">
         <div className="container">
           <div className="row align-items-center">

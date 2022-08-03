@@ -3,10 +3,15 @@ import CategoryList from "../../components/CategoryList";
 import ProductList from "../../components/ProductList";
 import { useRouter } from 'next/router'
 import productsData from "../../data/ShopDeutsch.json"
+import Head from 'next/head'
 const Category = () => {
     const router = useRouter()
     
     const filterCategoryByProducts=()=>{
+      <Head>
+      <title>Contain Haus | Container kaufen Container Preis Container Alle Modelle </title>
+      <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+    </Head>
       if(router.query.slug==="all"){
       return productsData
        }

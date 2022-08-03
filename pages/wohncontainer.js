@@ -12,6 +12,7 @@ import dynamic from "next/dynamic";
 import ContainerDetail from "../components/ContainerDetail";
 import HomePageShop from "../components/HomePageShop";
 import intro2Data from "../data/ShopDeutsch.json"; 
+import Head from 'next/head'
 const VideoCorausel = dynamic(() => import("../components/VideoCorausel"));
 const WohnContainer = () => {
   const [isChild3Ref, setIsChild3Ref] = React.useState(false);
@@ -28,6 +29,10 @@ const WohnContainer = () => {
 
   return (
     <div>
+          <Head>
+        <title>Contain Haus | Wohncontainer Preise kaufen </title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
       <ContainerInto data={wohncontainers}></ContainerInto>
   
     <HomePageShop data={burofilter}></HomePageShop>
