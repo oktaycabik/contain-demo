@@ -65,7 +65,7 @@ const Header = () => {
           <nav className="navbar navbar-expand-md navbar-light bg-light ">
             <div className="container">
               <Link href="/">
-                <a className="navbar-brand" href="#">
+                <a className="navbar-brand" >
                   <img
                     height={72}
                     width={120}
@@ -94,14 +94,14 @@ const Header = () => {
                 <ul className="navbar-nav ms-auto pl-lg-5 mx-2 pl-0 text-center">
                   <li className="nav-item">
                     <Link href="/burocontainer">
-                      <a className="nav-link" aria-current="page" onClick={handleClick} href="#">
+                      <a className="nav-link" aria-current="page" onClick={handleClick} >
                         Bürocontainer
                       </a>
                     </Link>
                   </li>
                   <li className="nav-item">
                     <Link href="/wohncontainer">
-                      <a className="nav-link" onClick={handleClick} href="#">
+                      <a className="nav-link" onClick={handleClick} >
                         XL Wohncontainer
                       </a>
                     </Link>
