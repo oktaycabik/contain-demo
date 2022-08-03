@@ -33,7 +33,7 @@ const Shop= () => {
 
         <HomePageShop data={intro2Data}></HomePageShop>
 
-        <div ref={child3Ref}>{child3RefValue && <VideoCorausel />}</div>
+        {/* <div ref={child3Ref}>{child3RefValue && <VideoCorausel />}</div> */}
         <ContainerColorSelector data={FlatPackContarinerColorSelector}></ContainerColorSelector>
         <WhyWeComponent></WhyWeComponent>
          <ContainerAnimation></ContainerAnimation>
