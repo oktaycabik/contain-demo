@@ -957,3 +957,13 @@ floatemail {
   background-color: #F2F4F5 !important;
   
 }
+.offcanvas-end {
+  top: 0;
+  right: 0;
+  width: 270px !important;
+  border-left: 1px solid rgba(0,0,0,.2);
+  transform: translateX(100%);
+}
+.close-collopse{
+  display: none !important;
+}

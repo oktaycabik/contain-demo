@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import { useRouter } from 'next/router'
 import Image from "next/image";
 const ContainerColorSelector = ({ data }) => {
   const [colorText, setColorText] = useState(data[1].color)
@@ -8,14 +8,14 @@ const ContainerColorSelector = ({ data }) => {
     setColorImgSrc(src);
     setColorText(name)
   };
-
+  const router = useRouter()
   return (
     <>
       <div className="row color-select justify-content-center">
         <div className="col-lg-7 d-flex mt-5 paddingg">
           <Image
-            priority
-            width={950}
+            
+            width={router.asPath==="/sanitar-container"?500: 950}
             height={500}
             className=""
             src={colorImgSrc}

@@ -1,6 +1,15 @@
 import React from "react";
 import Link from "next/link";
+
 const Header = () => {
+  const first = React.useRef(null)
+  const handleClick=()=>{
+    setTimeout(() => {
+      first.current.className ="navbar-collapse collapse"
+    }, 200);
+    
+  }
+ 
   return (
     <>
       <header role="banner ">
@@ -78,20 +87,21 @@ const Header = () => {
                 <span className="navbar-toggler-icon"></span>
               </button>
               <div
+              ref={first}
                 className="collapse navbar-collapse "
                 id="navbarSupportedContent"
               >
-                <ul className="navbar-nav ms-auto pl-lg-5 pl-0 text-center">
+                <ul className="navbar-nav ms-auto pl-lg-5 mx-2 pl-0 text-center">
                   <li className="nav-item">
                     <Link href="/burocontainer">
-                      <a className="nav-link" aria-current="page" href="#">
+                      <a className="nav-link" aria-current="page" onClick={handleClick} href="#">
                         Bürocontainer
                       </a>
                     </Link>
                   </li>
                   <li className="nav-item">
                     <Link href="/wohncontainer">
-                      <a className="nav-link" href="#">
+                      <a className="nav-link" onClick={handleClick} href="#">
                         XL Wohncontainer
                       </a>
                     </Link>
@@ -99,22 +109,22 @@ const Header = () => {
 
                   <li className="nav-item">
                     <Link href="/sanitar-container">
-                      <a className="nav-link">Sanitär Container</a>
+                      <a className="nav-link" onClick={handleClick}>Sanitär Container</a>
                     </Link>
                   </li>
                   <li className="nav-item">
                     <Link href="/flat-pack">
-                      <a className="nav-link">Flat Pack</a>
+                      <a className="nav-link" onClick={handleClick}>Flat Pack</a>
                     </Link>
                   </li>
                   <li className="nav-item">
                     <Link href="/special-edition">
-                      <a className="nav-link">Special Edition</a>
+                      <a className="nav-link" onClick={handleClick}>Special Edition</a>
                     </Link>
                   </li>
                   <li className="nav-item">
                     <Link href="/shop/all">
-                      <a className="nav-link">Shop</a>
+                      <a className="nav-link" onClick={handleClick}>Shop</a>
                     </Link>
                   </li>
                 </ul>
@@ -132,7 +142,7 @@ const Header = () => {
                   </li>
                   <li className="nav-item cta-btn">
                     <Link href="/kontakt">
-                      <a className="nav-link" href="">
+                      <a onClick={handleClick} className="nav-link" href="">
                         Kontakt
                       </a>
                     </Link>
