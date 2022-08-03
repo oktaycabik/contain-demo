@@ -11,10 +11,10 @@ import Image from "next/image";
 const Product = ({ product }) => {
   return (
     <div>
-      <div className="container-fluid ProductPgBgColor">
-        <div className="container mt-10">
+      <div className="container-fluid ProductPgBgColor ">
+        <div className="container p-5 mt-1">
           <div className="row mt-10">
-            <div className="col-lg-7 col-md-12 col-sm-12 mt-10">
+            <div className="col-lg-7 col-md-12 col-sm-12 mt-1">
               <div>
                 <Swiper
                   style={{
@@ -123,34 +123,29 @@ const Product = ({ product }) => {
               <div>
               
                   <div >
-                    <h4>{product?.title}</h4>
-                    <h6 className="fz-18 mt-2">Beschreibung</h6>
-                    <p className="font-italic">{product?.content?.text6}</p>
-                    <ul className="liProductPageList ml-3">
-                      <li className="fz-18">Mabe</li>
-                      <li className="fz-18">{product?.content?.text3}</li>
-                      <li className="fz-18">Zustand</li>
-                      <li className="fz-18">{product?.content?.text5}</li>
-                    </ul>
-                    <h6 className="mt-2 ">sddsd</h6>
-                    <p className="fz-18">sdsd</p>
-                    <h6 className="fz-18 mt-2 ">sdsd</h6>
-                    <p className="fz-18">sdsd</p>
+                    <h4 className="fw-600 fz-30">{product?.title}</h4>
+                    <h6 className="fw-600 fz-20 mt-2">Beschreibung</h6>
+                    <p className="font-italic fz-18">{product?.content?.text6}</p>
+                  
+                    <h6 className="mt-2 fz-20 fw-600">Mabe</h6>
+                    <p className="fz-18">{product?.content?.text3}</p>
+                
+                    <p className="fz-20 fw-600">Zustand</p>
                     <hr />
-                    <h4 className="fz-18">sdsd</h4>
-                    <Link href="/Kontakt">
-                      <a className="btn-curve btn-bord btn-lit mt-10 ">
-                        <span>Jetzt Anfragen</span>
+                    <h4 className="fz-18 fw-600 mb-3">{product?.content?.price}</h4>
+                    <Link href="/kontakt">
+                      <a className="mt-4 ">
+                        <span className="intro-button ">Jetzt Anfragen</span>
                       </a>
                     </Link>{" "}
-                    <h6 className="fz-18">sadsd</h6>
+                    <h6 className="fz-18 fw-600 mt-3">Kontakt</h6>
                     <div className="d-flex mt-2">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="16"
                         height="16"
                         fill="currentColor"
-                        className="bi bi-telephone-fill mr-2 mt-1"
+                        className="bi bi-telephone-fill me-2 mt-1"
                         viewBox="0 0 16 16"
                       >
                         <path
@@ -163,7 +158,8 @@ const Product = ({ product }) => {
                           href="tel:+4923028894880"
                           className="text-dark fz-18 fw-600"
                         >
-                         sdsd
+                         
+                         + 49 2302 889 48 80
                         </a>
                       </p>
                     </div>
