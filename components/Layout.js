@@ -1,4 +1,5 @@
 import React from 'react'
+import ContactLayerMobile from './ContactLayerMobile'
 import ContanctLayer from './ContanctLayer'
 import Footer from './Footer'
 import Header from './Header'
@@ -11,6 +12,7 @@ const Layout = ({children}) => {
     <main className='w-100'>
   {children}
     </main>
+    <ContactLayerMobile></ContactLayerMobile>
     <Footer></Footer>
     </>
   )
