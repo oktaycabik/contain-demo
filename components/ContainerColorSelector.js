@@ -15,8 +15,8 @@ const ContainerColorSelector = ({ data }) => {
         <div className="col-lg-7 d-flex mt-5 paddingg">
           <img
             
-            width={router.asPath==="/sanitar-container"?500: 950}
-            height={500}
+            width={router.asPath==="/sanitar-container"?500: 750}
+            height={router.asPath==="/sanitar-container"?530: 450}
             className=""
             src={colorImgSrc}
           />
@@ -35,8 +35,8 @@ const ContainerColorSelector = ({ data }) => {
                 >
                   <Image
                     className="img-fluid cursor"
-                    width={50}
-                    height={50}
+                    width={180}
+                    height={180}
                     src={color.class}
                     priority
                   />
