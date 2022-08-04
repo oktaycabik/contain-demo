@@ -3,36 +3,36 @@
     "id": 1,
     "color": "Weiß",
     "class": "/assets/img/PaintIcon/White_Paint.png",
-    "image": "/assets/img/XLrocontainerRenkleri/light.png"
+    "image": "/assets/img/XLrocontainerRenkleri/light.webp"
   },
   {
     "id": 2,
     "color": "Rot",
     "class": "/assets/img/PaintIcon/Red_Paint.png",
-    "image": "/assets/img/XLrocontainerRenkleri/red.png"
+    "image": "/assets/img/XLrocontainerRenkleri/red.webp"
   },
   {
     "id": 3,
     "color": "Grün",
     "class": "/assets/img/PaintIcon/Green_Paint.png",
-    "image": "/assets/img/XLrocontainerRenkleri/green.png"
+    "image": "/assets/img/XLrocontainerRenkleri/green.webp"
   },
   {
     "id": 4,
     "color": "Blau",
     "class": "/assets/img/PaintIcon/Blue_Paint.png",
-    "image": "/assets/img/XLrocontainerRenkleri/blue.png"
+    "image": "/assets/img/XLrocontainerRenkleri/blue.webp"
   },
   {
     "id": 5,
     "color": "Grau",
     "class": "/assets/img/PaintIcon/Gray_Paint.png",
-    "image": "/assets/img/XLrocontainerRenkleri/grey.png"
+    "image": "/assets/img/XLrocontainerRenkleri/grey.webp"
   },
   {
     "id": 6,
     "color": "Schwarz",
     "class":  "/assets/img/PaintIcon/Black__Paint.png",
-    "image": "/assets/img/XLrocontainerRenkleri/black.png"
+    "image": "/assets/img/XLrocontainerRenkleri/black.webp"
   }
 ]

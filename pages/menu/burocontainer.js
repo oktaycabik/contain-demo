@@ -1,16 +1,20 @@
 import React from 'react'
-import MenuBanner from '../../components/MenuComponents/MenuBanner'
+
 import MenuContentBuroContainer from "../../components/MenuComponents/MenuContentBuroContainer"
-import MenuBannersData from "../../data/menu/menuBanner.json"
+
 import MenuContentData from  "../../data/menu/menuContent.json"
 import MenuContact from '../../components/MenuComponents/MenuContact'
+import Head from "next/head"
 const Burocontainer = () => {
-  const {burocontainer} = MenuBannersData
+
   const {burocontainerContent} = MenuContentData 
   
   return (
     <div>
-     
+         <Head>
+        <title>Contain Haus | Bürocontainer </title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
        <MenuContentBuroContainer data={burocontainerContent}></MenuContentBuroContainer> 
        <MenuContact data={"Fordern Sie jetzt Ihren Bürocontainer an!"}></MenuContact>
     </div>

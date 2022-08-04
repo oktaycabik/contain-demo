@@ -15,9 +15,9 @@ const ContainerColorSelector = ({ data }) => {
         <div className="col-lg-7 d-flex mt-5 paddingg">
           <img
             
-            width={router.asPath==="/sanitar-container"?500: 750}
-            height={router.asPath==="/sanitar-container"?530: 450}
-            className=""
+            width={router.asPath==="/sanitar-container"?300: 750}
+            height={router.asPath==="/sanitar-container"?330: 450}
+            className="color-container"
             src={colorImgSrc}
           />
         </div>

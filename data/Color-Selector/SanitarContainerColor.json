@@ -3,36 +3,36 @@
     "id": 1,
     "color": "Weiß",
     "class": "/assets/img/PaintIcon/White_Paint.png",
-    "image": "/assets/img/SaniteaRenkleri/light.png"
+    "image": "/assets/img/SaniteaRenkleri/light.webp"
   },
   {
     "id": 2,
     "color": "Rot",
     "class": "/assets/img/PaintIcon/Red_Paint.png",
-    "image": "/assets/img/SaniteaRenkleri/red.png"
+    "image": "/assets/img/SaniteaRenkleri/red.webp"
   },
   {
     "id": 3,
     "color": "Grün",
     "class": "/assets/img/PaintIcon/Green_Paint.png",
-    "image": "/assets/img/SaniteaRenkleri/green.png"
+    "image": "/assets/img/SaniteaRenkleri/green.webp"
   },
   {
     "id": 4,
     "color": "Blau",
     "class": "/assets/img/PaintIcon/Blue_Paint.png",
-    "image": "/assets/img/SaniteaRenkleri/blue.png"
+    "image": "/assets/img/SaniteaRenkleri/blue.webp"
   },
   {
     "id": 5,
     "color": "Grau",
     "class": "/assets/img/PaintIcon/Gray_Paint.png",
-    "image": "/assets/img/SaniteaRenkleri/grey.png"
+    "image": "/assets/img/SaniteaRenkleri/grey.webp"
   },
   {
     "id": 6,
     "color": "Schwarz",
     "class":  "/assets/img/PaintIcon/Black__Paint.png",
-    "image": "/assets/img/SaniteaRenkleri/black.png"
+    "image": "/assets/img/SaniteaRenkleri/black.webp"
   }
 ]

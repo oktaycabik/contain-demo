@@ -119,7 +119,7 @@ const Header = () => {
                     </Link>
                   </li>
                   <li className="nav-item">
-                    <Link href="/shop/all">
+                    <Link href="/shop/alle">
                       <a className="nav-link" onClick={handleClick}>Shop</a>
                     </Link>
                   </li>

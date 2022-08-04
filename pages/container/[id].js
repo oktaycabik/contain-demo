@@ -8,9 +8,14 @@ import "swiper/css/navigation";
 import "swiper/css/thumbs";
 import { FreeMode, Navigation, Thumbs } from "swiper";
 import Image from "next/image";
+import Head from 'next/head'
 const Product = ({ product }) => {
   return (
     <div>
+        <Head>
+      <title>Contain Haus | {product.title} </title>
+      <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+    </Head>
       <div className="container-fluid ProductPgBgColor ">
         <div className="container p-5 mt-1">
           <div className="row ">

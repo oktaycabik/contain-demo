@@ -8,11 +8,8 @@ const Category = () => {
     const router = useRouter()
     
     const filterCategoryByProducts=()=>{
-      <Head>
-      <title>Contain Haus | Container kaufen Container Preis Container Alle Modelle </title>
-      <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-    </Head>
-      if(router.query.slug==="all"){
+    
+      if(router.query.slug==="alle"){
       return productsData
        }
        else {
@@ -23,6 +20,10 @@ const Category = () => {
     const products=filterCategoryByProducts()
     return (
     <>
+      <Head>
+      <title>Contain Haus | {products[0]?.content?.text2} </title>
+      <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+    </Head>
       <CategoryList></CategoryList>
       <div className="container">
         <div className="row mt-5 mb-5">

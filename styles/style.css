@@ -1063,3 +1063,7 @@ floatemail {
 .danke-text{
 color: #616160;
 }
+.color-container{
+  width: 100% !important;
+  height: auto;
+}
