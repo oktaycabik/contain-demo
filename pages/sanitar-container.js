@@ -35,6 +35,7 @@ const SanitaContainer = () => {
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
         <ContainerInto data={sanitacontainers}></ContainerInto>
+        <ContainerDetail></ContainerDetail>
       <HomePageShop data={Sanitarfilter}></HomePageShop>
        
         
@@ -42,7 +43,7 @@ const SanitaContainer = () => {
         <ContainerColorSelector data={SanitarContarinerColorSelector}></ContainerColorSelector>
         <WhyWeComponent></WhyWeComponent>
       <ContainerAnimation></ContainerAnimation>
-      <ContainerDetail></ContainerDetail>
+  
     </div>
   )
 }

@@ -31,12 +31,13 @@ const Burocontaıner = () => {
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
         <ContainerInto data={specialeditatons}></ContainerInto>
+        <ContainerDetail></ContainerDetail>
         <HomePageShop data={Specialfilter}></HomePageShop>
         <WhyWeComponent></WhyWeComponent>
         {/* <div ref={child3Ref}>{child3RefValue && <VideoCorausel />}</div> */}
         {/* <ContainerColorSelector data={SpecialContainerColorSelector}></ContainerColorSelector> */}
        <ContainerAnimation></ContainerAnimation>
-       <ContainerDetail></ContainerDetail>
+      
     </div>
   )
 }

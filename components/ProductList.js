@@ -36,7 +36,7 @@ const ProductList = ({ product }) => {
               </Link>
               <Link href={`/container/${product.id}`}>
                 <button className="btn btn-md btn-secondary ps-4 pe-4 rounded-pill text-light detail-btn flex-fill ms-1">
-                  Details
+                  Kaufen
                 </button>
               </Link>
             </div>

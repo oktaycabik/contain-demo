@@ -38,6 +38,7 @@ const Burocontaıner = () => {
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
       <ContainerInto data={buroconteiner}/>
+      <ContainerDetail/>
       <HomePageShop data={burofilter}/>
 
       {/* <div ref={child3Ref}>{child3RefValue && <VideoCorausel />}</div> */}
@@ -47,7 +48,7 @@ const Burocontaıner = () => {
       />
       <WhyWeComponent/>
       <ContainerAnimation/>
-      <ContainerDetail/>
+     
     </div>
   );
 };

@@ -55,7 +55,7 @@ const Header = () => {
               </Link>
             </span>
     
-            <span className=" navbar-info-span">
+            <span className="text-danger navbar-info-span">
               <Link href="https://www.containhaus.de/assets/img/KATALOG.pdf">
                 KATALOG
               </Link>
@@ -137,7 +137,7 @@ const Header = () => {
                       data-bs-target="#offcanvasRight"
                       aria-controls="offcanvasRight"
                     >
-                      Menu
+                      Menü
                     </a>
                   </li>
                   <li className="nav-item cta-btn">

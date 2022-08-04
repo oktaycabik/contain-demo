@@ -23,7 +23,7 @@ export default function Home() {
       <ContainerInto data={buroconteiner}/>
       <ContainerInto data={wohncontainers}/>
       <ContainerInto data={sanitacontainers}/>
-      <ContainerInto data={flatpackcontainers}/>
+      {/* <ContainerInto data={flatpackcontainers}/> */}
       <ContainerInto data={specialeditatons}/>
     </>
   );

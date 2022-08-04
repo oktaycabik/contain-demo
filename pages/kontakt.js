@@ -117,6 +117,15 @@ const Kontakt = () => {
                     </a>
                   </Link>
                 </h5>
+                
+              </div>
+              <div className="mt-4">
+                <div className="footer-head">Inhaber:<span className="footer-color">Abraham Wach </span> </div>
+                <div className="footer-head">BANKNAME:<span className="footer-color">Volksbank Sprockhövel</span> </div>
+                <div className="footer-head">SWIFTCODE:<span className="footer-color">GENODEM1SPO </span></div>
+                <div className="footer-head">KONTOINHABER:<span className="footer-color">CONTAIN HAUS CONTAINER</span> </div>
+                <div className="footer-head">IBAN:<span className="footer-color">DE4145 2615 4700 1398 6200</span> </div>
+                <div className="footer-head">Steuernummer. :<span className="footer-color">348/5203/3253</span> </div>
               </div>
             </div>
             <div className="col-lg-5 col-md-12 col-12">

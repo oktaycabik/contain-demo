@@ -30,14 +30,14 @@ const Shop= () => {
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
         <ContainerInto data={flatpackcontainers}></ContainerInto>
-
+        <ContainerDetail></ContainerDetail>
         <HomePageShop data={intro2Data}></HomePageShop>
 
         {/* <div ref={child3Ref}>{child3RefValue && <VideoCorausel />}</div> */}
         <ContainerColorSelector data={FlatPackContarinerColorSelector}></ContainerColorSelector>
         <WhyWeComponent></WhyWeComponent>
          <ContainerAnimation></ContainerAnimation>
-         <ContainerDetail></ContainerDetail>
+       
     </div>
   )
 }

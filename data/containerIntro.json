@@ -10,7 +10,10 @@
     "mobileImage": "/assets/img/FrontPage/BuroMobilMainPageUpdate.webp",
     "image1": "/assets/img/InnerPage/BurocontainerInnerPageUpdate.webp",
     "mobileImage1": "/assets/img/InnerPage/BurocontainerMobilInnerPageUpdate.webp",
-    "href":"/shop/burocontainer"
+    "href":"/shop/burocontainer",
+    "homeHref":"/burocontainer",
+    "homeButton":"HIER GEHT'S WEITER",
+    "pageButton":"JETZT ZUM SHOP"
   },
   "wohncontainers":{
     "id": 1,
@@ -23,7 +26,10 @@
     "image1": "/assets/img/InnerPage/XLInnerPageUpdate.webp",
     "mobileImage": "/assets/img/FrontPage/XlMobilMainpageUpdate.webp",
     "mobileImage1": "/assets/img/InnerPage/XLMobilInnerPageUpdate.webp",
-    "href":"/shop/wohncontainer"
+    "href":"/shop/wohncontainer",
+    "homeHref":"/wohncontainer",
+    "homeButton":"HIER GEHT'S WEITER",
+    "pageButton":"JETZT ZUM SHOP"
   },
   "sanitacontainers":{
     "id": 1,
@@ -36,7 +42,10 @@
     "mobileImage": "/assets/img/FrontPage/SanitaMobilMainpageUpdate.webp",
     "mobileImage1": "/assets/img/InnerPage/SanitaInnerMobilPageUpdate.webp",
     "image1": "/assets/img/Innerpage/SanitaInnerPageUpdate.webp",
-    "href":"/shop/sanitarcontainer"
+    "href":"/shop/sanitarcontainer",
+    "homeHref":"/sanitar-container",
+    "homeButton":"HIER GEHT'S WEITER",
+    "pageButton":"JETZT ZUM SHOP"
   },
   "flatpackcontainers": {
     "id": 1,
@@ -49,7 +58,10 @@
     "mobileImage": "/assets/img/FrontPage/FlatpackMainPageMobil.webp",
     "mobileImage1": "/assets/img/InnerPage/FlatpackInnerMobilPageUpdate.webp",
     "image1": "/assets/img/InnerPage/FlatpackinnerPage.webp",
-    "href":"/shop/flatpack"
+    "href":"/shop/flatpack",
+    "homeHref":"/flat-pack",
+    "homeButton":"HIER GEHT'S WEITER",
+    "pageButton":"JETZT ZUM SHOP"
   },
   "specialeditatons":{
     "id": 1,
@@ -63,7 +75,9 @@
     "mobileImage1": "/assets/img/InnerPage/SpecialEdditionMobilInnerPageUpdate.webp",
     "image1": "/assets/img/InnerPage/SpecialEdditionInnerPageUpdate.webp",
    
-    "href":"/shop/special"
-    
+    "href":"/shop/special",
+    "homeHref":"/special-edition",
+    "homeButton":"HIER GEHT'S WEITER",
+    "pageButton":"JETZT ZUM SHOP"
   }
 }

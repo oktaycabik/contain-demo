@@ -65,8 +65,8 @@ const textColor = ()=>{
 
         <h5 className={`mt-1  ${router.asPath ==="/sanitar-container" || router.asPath === "/special-edition" ? 'text-light' : "text-danger"}`}>Direkt ab Werk</h5>
          <h5 className={`mt-2 text-light ${textColor()}` }>{data.content.first}</h5>
-        <Link href={`${data.href}`}>
-           <button className="intro-button">HIER GEHT'S WEITTER</button>
+        <Link href={`${router.asPath === "/" ? data.homeHref:data.href}`}>
+           <button className="intro-button">{router.asPath === "/" ? data.homeButton:data.pageButton}</button>
          </Link>
        </div>
      </div>

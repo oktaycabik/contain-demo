@@ -25,12 +25,12 @@ const MenuContentBuroContainer = ({ data }) => {
 
                   <div className="row justify-content-center">
                
-                      <div className="col-lg-8 col-md-12 col-sm-12 mt-4 mb-4">
+                      {/* <div className="col-lg-8 col-md-12 col-sm-12 mt-4 mb-4">
                         <img 
                           className="rounded content-image "
                           src={data.content.image1}
                         ></img>
-                      </div>
+                      </div> */}
              
                     <div className="col-12">
                       <p className="mt-1 fz-20 text-justify text-dark ">
@@ -41,13 +41,13 @@ const MenuContentBuroContainer = ({ data }) => {
                   <h2 className=" text-dark  mt-3 mb-3 ">{data.title.third}</h2>
 
                   <div className="row justify-content-center">
-   
+{/*    
                       <div className="col-lg-8 col-md-12 col-sm-12 mt-4 mb-4">
                         <img
                           className="rounded content-image"
                           src={data.content.image2}
                         ></img>
-                      </div>
+                      </div> */}
             
                     <div className="col-lg-12 ">
                       <p className="mt-10 fz-20 text-justify text-dark">
@@ -105,9 +105,9 @@ const MenuContentBuroContainer = ({ data }) => {
                   <h2 className=" text-dark  mt-3 mb-3">{data.title.ninth}</h2>
 
                   <div className="row justify-content-center">
-                  <div className="col-lg-8 col-md-12 col-sm-12 mt-4 mb-4">
+                  {/* <div className="col-lg-8 col-md-12 col-sm-12 mt-4 mb-4">
                       <img className="rounded content-image" src={data.content.image5}></img>
-                    </div>
+                    </div> */}
                     <div className="col-lg-12">
                       <p className="mt-10 fz-20 text-justify text-dark">
                         {data.content.tenth}
@@ -136,9 +136,9 @@ const MenuContentBuroContainer = ({ data }) => {
                   <h2 className=" text-dark  mt-3 mb-3">{data.title.thenth}</h2>
 
                   <div className="row justify-content-center">
-                    <div className="col-lg-8 col-md-12 col-sm-12 mt-4 mb-4">
+                    {/* <div className="col-lg-8 col-md-12 col-sm-12 mt-4 mb-4">
                       <img className="rounded content-image" src={data.content.image8}></img>
-                    </div>
+                    </div> */}
                     <div className="col-lg-12">
                       <p className="mt-10 fz-20 text-justify text-dark">
                         {data.content.seventeen}
@@ -182,9 +182,9 @@ const MenuContentBuroContainer = ({ data }) => {
                   </h2>
 
                   <div className="row justify-content-center">
-                    <div className="col-lg-8 col-md-12 col-sm-12 mt-4 mb-4">
+                    {/* <div className="col-lg-8 col-md-12 col-sm-12 mt-4 mb-4">
                       <img className="rounded content-image" src={data.content.image6}></img>
-                    </div>
+                    </div> */}
                     <p className="mt-10 fz-20 text-justify text-dark">
                       {data.content.twentySix}
                     </p>
@@ -194,9 +194,9 @@ const MenuContentBuroContainer = ({ data }) => {
                   </h2>
 
                   <div className="row justify-content-center">
-                    <div className="col-lg-8 col-md-12 col-sm-12 mt-4 mb-4">
+                    {/* <div className="col-lg-8 col-md-12 col-sm-12 mt-4 mb-4">
                       <img className="rounded content-image" src={data.content.image7}></img>
-                    </div>
+                    </div> */}
                     <div className="col-12">
                       <p className="mt-10 fz-20 text-justify text-dark">
                         {data.content.twentySeven}
