@@ -28,7 +28,7 @@ const ContainerColorSelector = ({ data }) => {
             <div className="paint-icons">
               {data.map((color) => (
                 <div
-                  style={{ backgroundImage: `${color.class}` }}
+                
                   className="container-style  mx-1  d-flex justify-content-center"
                   onMouseOver={() => handleChangeColor(color.image,color.color)}
                   key={color.id}
