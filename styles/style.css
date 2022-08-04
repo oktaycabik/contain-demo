@@ -1046,3 +1046,20 @@ floatemail {
     0 8px 10px 1px rgb(31 31 31 / 8%), 0 5px 5px -3px rgb(31 31 31 / 6%);
   cursor: pointer !important;
 }
+.danke-page{
+  
+  display: flex !important ;
+  align-items: center !important;
+  justify-content: center !important;
+  flex-direction: column;
+}
+.mt-17{
+  margin-top: 200px;
+}
+.danke{
+  height: 300px;
+
+}
+.danke-text{
+color: #616160;
+}
