@@ -40,6 +40,44 @@ const textColor = ()=>{
   }
 
 }
+const textColorContent = ()=>{
+  if(width < 768 ){
+  
+   if(router.asPath === "/burocontainer"){
+    return "text-dark"
+   }
+   if(router.asPath === "/wohncontainer"){
+    return "text-dark"
+   }
+   if(router.asPath === "/sanitar-container"){
+    return "text-light"
+   }
+   if(router.asPath === "/flat-pack"){
+    return "text-dark"
+   }
+   if(router.asPath === "/special-edition"){
+    return "text-dark"
+   }
+  }else{
+   
+    if(router.asPath === "/burocontainer"){
+      return "text-light"
+     }
+    else if(router.asPath === "/wohncontainer"){
+      return "text-dark"
+     }
+     if(router.asPath === "/sanitar-container"){
+      return "text-light"
+     }
+     if(router.asPath === "/flat-pack"){
+      return "text-dark"
+     }
+     if(router.asPath === "/special-edition"){
+      return "text-light"
+     }
+  }
+
+}
   const router = useRouter();
   const test = () => {
     if (router.asPath === "/") {
@@ -64,7 +102,7 @@ const textColor = ()=>{
         <h1 className={`${textColor()} fw-600`}>{data.title.second}</h1>
 
         <h5 className={`mt-1  ${router.asPath ==="/sanitar-container" || router.asPath === "/special-edition" ? 'text-light' : "text-danger"}`}>Direkt ab Werk</h5>
-         <h5 className={`mt-2 text-light ${textColor()}` }>{data.content.first}</h5>
+         <h5 className={`${textColorContent()} fw-600`}>{data.content.first}</h5>
         <Link href={`${router.asPath === "/" ? data.homeHref:data.href}`}>
            <button className="intro-button">{router.asPath === "/" ? data.homeButton:data.pageButton}</button>
          </Link>

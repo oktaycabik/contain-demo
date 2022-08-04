@@ -1,9 +1,11 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import Link from "next/link";
+import { useRouter } from "next/router";
 import Head from "next/head";
 const Kontakt = () => {
   const form = useRef();
+  const router = useRouter();
   const handleSubmit = (e) => {
     e.preventDefault();
     emailjs
@@ -15,7 +17,11 @@ const Kontakt = () => {
       )
       .then(
         (result) => {
-          console.log(result.text);
+          if(result.status===200){
+            router.push(
+                "/danke"
+            )
+        }
         },
         (error) => {
           console.log(error.text);
@@ -138,6 +144,7 @@ const Kontakt = () => {
                   <label className="row">
                     Name Nachname
                     <input
+                    required
                       type="text"
                       name="name"
                       className="contact-input"
@@ -146,6 +153,7 @@ const Kontakt = () => {
                   <label className="row">
                     Telefon (Pflichtfeld)
                     <input
+                    required
                       type="tel"
                       name="number"
                       className="contact-input"
@@ -154,6 +162,7 @@ const Kontakt = () => {
                   <label className="row">
                     E-mail
                     <input
+                    required
                       type="email"
                       name="email"
                       className="contact-input"
@@ -162,6 +171,7 @@ const Kontakt = () => {
                   <label className="row">
                     Liefeadresse
                     <input
+                    required
                       type="text"
                       name="lieferadresse"
                       className="contact-input"

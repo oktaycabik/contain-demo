@@ -44,6 +44,7 @@ const ContanctLayer = () => {
               phoneNumber="+491736221062"
               accountName="ContainHaus"
               statusMessage="In kÃžrze werden Sie kontaktiert."
+              
               styles={{
                 top: "18.5rem ",
                 right: "0.2rem",
