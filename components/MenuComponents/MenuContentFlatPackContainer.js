@@ -15,12 +15,12 @@ const MenuContentFlatPackContainer = ({data}) => {
                     </h1>
 
                     <div className="row justify-content-center">
-                      <div className="col-lg-8 col-md-12 col-sm-12 mt-4 mb-4">
+                      {/* <div className="col-lg-8 col-md-12 col-sm-12 mt-4 mb-4">
                         <img
                           className="rounded content-image"
                           src={data.content.image1}
                         ></img>
-                      </div>
+                      </div> */}
                       <div className="col-12">
                         <p className="mt-10 fz-20 text-justify  text-dark">
                           {data.content.first}
@@ -37,12 +37,12 @@ const MenuContentFlatPackContainer = ({data}) => {
                     <h2 className="text-dark d-flex ">{data.title.second}</h2>
 
                     <div className="row justify-content-center">
-                      <div className="col-lg-8 col-md-12 col-sm-12 mt-4 mb-4">
+                      {/* <div className="col-lg-8 col-md-12 col-sm-12 mt-4 mb-4">
                         <img
                           className="rounded content-image"
                           src={data.content.image2}
                         ></img>
-                      </div>
+                      </div> */}
                       <div className="col-12">
                         <p className="mt-10 fz-20 text-justify text-dark">
                           {data.content.forth}
@@ -76,12 +76,12 @@ const MenuContentFlatPackContainer = ({data}) => {
                     </h2>
 
                     <div className="row justify-content-center">
-                      <div className="col-lg-8 col-md-12 col-sm-12 mt-4 mb-4">
+                      {/* <div className="col-lg-8 col-md-12 col-sm-12 mt-4 mb-4">
                         <img
                           className="rounded content-image"
                           src={data.content.image3}
                         ></img>
-                      </div>
+                      </div> */}
                       <div className="col-12">
                         <p className="mt-10 fz-20 text-justify text-dark">
                           {data.content.twelvth}
@@ -98,12 +98,12 @@ const MenuContentFlatPackContainer = ({data}) => {
                     <h2 className="text-dark d-flex">{data.title.forth}</h2>
 
                     <div className="row justify-content-center">
-                      <div className="col-lg-8 col-md-12 col-sm-12 mt-4 mb-4">
+                      {/* <div className="col-lg-8 col-md-12 col-sm-12 mt-4 mb-4">
                         <img
                           className="rounded content-image"
                           src={data.content.image4}
                         ></img>
-                      </div>
+                      </div> */}
                       <div className="col-12">
                         <p className="mt-10 fz-20 text-justify text-dark">
                           {data.content.fifteen}

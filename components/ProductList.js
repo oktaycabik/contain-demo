@@ -4,8 +4,9 @@ import Image from "next/image";
 const ProductList = ({ product }) => {
   return (
     <>
-      <div className="col-md-6 col-12 col-lg-3 mb-4 mb-lg-0 gx-3 mt-2 ">
-        <div className="card text-black">
+    <Link  href={`/container/${product.id}`}>
+      <div className="col-md-6 col-12 col-lg-3 mb-4 mb-lg-0 gx-3 mt-2 cursor ">
+        <div className="card text-black shadow-product">
           <Image
             width={306}
             height={229}
@@ -43,6 +44,7 @@ const ProductList = ({ product }) => {
           </div>
         </div>
       </div>
+      </Link>
     </>
   );
 };

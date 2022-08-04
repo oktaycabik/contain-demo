@@ -17,12 +17,12 @@ const MenuContentWohnContainer = ({data}) => {
                       {data.title.second}
                     </h2>
                     <div className="row justify-content-center">
-                      <div className="col-lg-8 col-md-12 col-sm-12 mt-3 mb-3 ">
+                      {/* <div className="col-lg-8 col-md-12 col-sm-12 mt-3 mb-3 ">
                         <img
                           className="rounded content-image"
                           src={data.content.image1}
                         ></img>
-                      </div>
+                      </div> */}
                       <div className="col-12">
                         <p className="mt-10 fz-20 text-justify text-dark">
                           {data.content.first}
@@ -53,12 +53,12 @@ const MenuContentWohnContainer = ({data}) => {
                       {data.title.forth}
                     </h2>
                     <div className="row justify-content-center">
-                      <div className="col-lg-8 col-md-12 col-sm-12 mt-3 mb-3">
+                      {/* <div className="col-lg-8 col-md-12 col-sm-12 mt-3 mb-3">
                         <img
                           className="rounded content-image"
                           src={data.content.image2}
                         ></img>
-                      </div>
+                      </div> */}
                       <div className="col-12">
                         <p className="mt-10 fz-20 text-justify text-dark">
                           {data.content.seventh}
@@ -73,12 +73,12 @@ const MenuContentWohnContainer = ({data}) => {
                       {data.title.fivth}
                     </h2>
                     <div className="row justify-content-center">
-                      <div className="col-lg-8 col-md-12 col-sm-12 mt-3 mb-3">
+                      {/* <div className="col-lg-8 col-md-12 col-sm-12 mt-3 mb-3">
                         <img
                           className="rounded content-image"
                           src={data.content.image3}
                         ></img>
-                      </div>
+                      </div> */}
                       <div className="col-12">
                         <p className="mt-10 fz-20 text-justify text-dark">
                           {data.content.ninth}
@@ -108,9 +108,9 @@ const MenuContentWohnContainer = ({data}) => {
                   </h3>
 
                   <div className="row justify-content-center">
-                    <div className="col-lg-8 col-md-12 col-sm-12 mt-3 mb-3">
+                    {/* <div className="col-lg-8 col-md-12 col-sm-12 mt-3 mb-3">
                       <img className="rounded content-image" src={data.content.image4}></img>
-                    </div>
+                    </div> */}
                     <div className="col-12">
                       <p className="mt-10 fz-20 text-justify text-dark">
                         {data.content.forteen}
@@ -126,9 +126,9 @@ const MenuContentWohnContainer = ({data}) => {
                   </h2>
 
                   <div className="row justify-content-center">
-                    <div className="col-lg-8 col-md-12 col-sm-12 mt-3 mb-3 ">
+                    {/* <div className="col-lg-8 col-md-12 col-sm-12 mt-3 mb-3 ">
                       <img className="rounded content-image" src={data.content.image5}></img>
-                    </div>
+                    </div> */}
                     <div className="col-12">
                       <p className="mt-10 fz-20 text-justify text-dark">
                         {data.content.sixteen}

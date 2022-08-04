@@ -42,11 +42,11 @@ const HomePageShop = ({ data }) => {
 
           {data.map((Val) => {
             return (
-
+              
               <SplideSlide key={Val.id}>
-
+                 <Link href={`/container/${Val.id}`}> 
                 <div
-                  className="card my-3 py-3 col-12 "
+                  className="card my-3 py-3 col-12 shadow-product"
                   key={Val.id}
                 >
                   <div className="card-img-top text-center ">
@@ -133,6 +133,7 @@ const HomePageShop = ({ data }) => {
                     </div>
                   </div>
                 </div>
+                </Link>
               </SplideSlide>
 
             );

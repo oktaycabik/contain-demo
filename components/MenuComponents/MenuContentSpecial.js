@@ -23,12 +23,12 @@ const MenuContentSpecial = ({data}) => {
                       {data.title.second}
                     </h2>
                     <div className="row justify-content-center">
-                      <div className="col-lg-8 col-md-12 col-sm-12 mt-4 mb-4">
+                      {/* <div className="col-lg-8 col-md-12 col-sm-12 mt-4 mb-4">
                         <img
                           className="rounded content-image"
                           src={data.content.image1}
                         ></img>
-                      </div>
+                      </div> */}
                       <div className="col-12">
                         <p className="mt-10 fz-20 text-justify text-dark">
                           {data.content.second}
@@ -48,12 +48,12 @@ const MenuContentSpecial = ({data}) => {
                       {data.title.third}
                     </h2>
                     <div className="row justify-content-center">
-                      <div className="col-lg-8 col-md-12 col-sm-12 mt-4 mb-4">
+                      {/* <div className="col-lg-8 col-md-12 col-sm-12 mt-4 mb-4">
                         <img
                           className="rounded content-image"
                           src={data.content.image2}
                         ></img>
-                      </div>
+                      </div> */}
                       <div className="col-12">
                         <p className="mt-10 fz-20 text-justify text-dark">
                           {data.content.sixth}

@@ -23,12 +23,12 @@ const MenuContentXlWohnContainer = ({data}) => {
                       {data.title.third}
                     </h2>
                     <div className="row justify-content-center">
-                      <div className="col-8 mt-4 mb-4">
+                      {/* <div className="col-8 mt-4 mb-4">
                         <img
                           className="rounded content-image"
                           src={data.content.image1}
                         ></img>
-                      </div>
+                      </div> */}
                       <div className="col-12">
                         <p className="mt-10 fz-20 text-justify text-dark">
                           {data.content.second}
@@ -40,12 +40,12 @@ const MenuContentXlWohnContainer = ({data}) => {
                       {data.title.forth}
                     </h2>
                     <div className="row justify-content-center">
-                      <div className="col-8 mt-4 mb-4">
+                      {/* <div className="col-8 mt-4 mb-4">
                         <img
                           className="rounded content-image"
                           src={data.content.image2}
                         ></img>
-                      </div>
+                      </div> */}
                       <div className="col-12">
                         <p className="mt-10 fz-20 text-justify text-dark">
                           {data.content.third}
@@ -56,12 +56,12 @@ const MenuContentXlWohnContainer = ({data}) => {
                       {data.title.fifth}
                     </h2>
                     <div className="row justify-content-center">
-                      <div className="col-8 mt-4 mb-4">
+                      {/* <div className="col-8 mt-4 mb-4">
                         <img
                           className="rounded content-image"
                           src={data.content.image3}
                         ></img>
-                      </div>
+                      </div> */}
                       <div className="col-12">
                         <p className="mt-10 fz-20 text-justify text-dark">
                           {data.content.forth}
@@ -90,12 +90,12 @@ const MenuContentXlWohnContainer = ({data}) => {
                       {data.title.ninth}
                     </h2>
                     <div className="row justify-content-center">
-                      <div className="col-8 mt-4 mb-4">
+                      {/* <div className="col-8 mt-4 mb-4">
                         <img
                           className="rounded content-image"
                           src={data.content.image4}
                         ></img>
-                      </div>
+                      </div> */}
                       <div className="col-12">
                         <p className="mt-10 fz-20 text-justify text-dark">
                           {data.content.ninth}

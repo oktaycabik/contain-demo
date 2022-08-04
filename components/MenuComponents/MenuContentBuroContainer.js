@@ -3,9 +3,7 @@ import React from "react";
 const MenuContentBuroContainer = ({ data }) => {
   return (
     <>
-     <div className="container">
-      sadsasdsad
-     </div>
+     
     <div>
       <header>
         <div>
@@ -68,9 +66,9 @@ const MenuContentBuroContainer = ({ data }) => {
 
                   <div className="row justify-content-center">
      
-                     <div className="col-10 mt-4 mb-4">
+                     {/* <div className="col-10 mt-4 mb-4">
                       <img className="rounded content-image" src={data.content.image3}></img>
-                    </div>
+                    </div> */}
                     <div className="col-lg-8 col-md-12 col-sm-12">
                       <p className="fz-20 text-justify text-dark">
                         {data.content.sixth}
@@ -90,9 +88,9 @@ const MenuContentBuroContainer = ({ data }) => {
 
                   <div className="row justify-content-center">
                   
-                  <div className="col-lg-8 col-md-12 col-sm-12 mt-4 mb-4">
+                  {/* <div className="col-lg-8 col-md-12 col-sm-12 mt-4 mb-4">
                       <img className="rounded content-image" src={data.content.image4}></img>
-                    </div>
+                    </div> */}
                     <div className="col-lg-12">
                       <p className="mt-10 fz-20 text-justify text-dark">
                         {data.content.eidth}

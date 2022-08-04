@@ -34,16 +34,17 @@ const WohnContainer = () => {
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
       <ContainerInto data={wohncontainers}></ContainerInto>
-  
-    <HomePageShop data={burofilter}></HomePageShop>
+      <ContainerDetail></ContainerDetail>
+      <HomePageShop data={burofilter}></HomePageShop>
 
+   
       {/* <div ref={child3Ref}>{child3RefValue && <VideoCorausel />}</div> */}
       <ContainerColorSelector
         data={WohnContainerColorSelector}
       ></ContainerColorSelector>
       <WhyWeComponent></WhyWeComponent>
       <ContainerAnimation></ContainerAnimation>
-      <ContainerDetail></ContainerDetail>
+   
     </div>
   );
 };

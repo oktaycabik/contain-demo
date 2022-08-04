@@ -14,9 +14,9 @@ const MenuContentSchulcontainerContainer = ({data}) => {
                       {data.title.first}
                     </h1>
                     <div className="row justify-content-center">
-                      <div className="col-lg-8 col-md-12 col-sm-12 t-3 mb-3">
+                      {/* <div className="col-lg-8 col-md-12 col-sm-12 t-3 mb-3">
                         <img src={data.content.image1} />
-                      </div>
+                      </div> */}
                       <div className="col-12">
                         <p className="mt-10 fz-20 text-justify text-dark">
                           {data.content.first}
@@ -41,9 +41,9 @@ const MenuContentSchulcontainerContainer = ({data}) => {
                       {data.title.third}
                     </h2>
                     <div className="row justify-content-center">
-                      <div className="col-lg-8 col-md-12 col-sm-12 t-3 mb-3">
+                      {/* <div className="col-lg-8 col-md-12 col-sm-12 t-3 mb-3">
                         <img src={data.content.image2} />
-                      </div>
+                      </div> */}
                       <div className="col-12">
                         <p className="mt-10 fz-20 text-justify text-dark">
                           {data.content.fifth}
@@ -55,9 +55,9 @@ const MenuContentSchulcontainerContainer = ({data}) => {
                       {data.title.forth}
                     </h2>
                     <div className="row justify-content-center">
-                      <div className="col-lg-8 col-md-12 col-sm-12 t-3 mb-3">
+                      {/* <div className="col-lg-8 col-md-12 col-sm-12 t-3 mb-3">
                         <img src={data.content.image3} />
-                      </div>
+                      </div> */}
                       <div className="col-12">
                         <p className="mt-10 fz-20 text-justify text-dark">
                           {data.content.sixth}
@@ -69,9 +69,9 @@ const MenuContentSchulcontainerContainer = ({data}) => {
                       {data.title.fifth}
                     </h2>
                     <div className="row justify-content-center">
-                      <div className="col-lg-8 col-md-12 col-sm-12 t-3 mb-3">
+                      {/* <div className="col-lg-8 col-md-12 col-sm-12 t-3 mb-3">
                         <img src={data.content.image4} />
-                      </div>
+                      </div> */}
                       <div className="col-12">
                         <p className="mt-10 fz-20 text-justify text-dark">
                           {data.content.seventh}
@@ -83,9 +83,9 @@ const MenuContentSchulcontainerContainer = ({data}) => {
                       {data.title.sixth}
                     </h2>
                     <div className="row justify-content-center">
-                      <div className="col-lg-8 col-md-12 col-sm-12 t-3 mb-3">
+                      {/* <div className="col-lg-8 col-md-12 col-sm-12 t-3 mb-3">
                         <img src={data.content.image5} />
-                      </div>
+                      </div> */}
                       <div className="col-12">
                         <p className="mt-10 fz-20 text-justify text-dark">
                           {data.content.eidth}

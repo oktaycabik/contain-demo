@@ -30,9 +30,9 @@ const MenuContentCafeContaineir = ({ data }) => {
                   </p>
                   <h2 className=" text-dark d-flex  ">{data.title.third}</h2>
                   <div className="row">
-                    <div className="col-lg-8 col-md-12 col-sm-12 mt-3 mb-3">
+                    {/* <div className="col-lg-8 col-md-12 col-sm-12 mt-3 mb-3">
                       <img src={data.content.image1} />
-                    </div>
+                    </div> */}
                     <div className="col-12">
                       <p className="mt-10 fz-20 text-justify text-dark">
                         {data.content.sixth}
@@ -45,9 +45,9 @@ const MenuContentCafeContaineir = ({ data }) => {
 
                   <h2 className=" text-dark d-flex  ">{data.title.forth}</h2>
                   <div className="row">
-                    <div className="col-lg-8 col-md-12 col-sm-12 mt-3 mb-3">
+                    {/* <div className="col-lg-8 col-md-12 col-sm-12 mt-3 mb-3">
                       <img src={data.content.image2} />
-                    </div>
+                    </div> */}
                     <div className="col-12">
                       <p className="mt-10 fz-20 text-justify text-dark">
                         {data.content.eidth}

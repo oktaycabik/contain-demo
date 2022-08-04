@@ -47,9 +47,9 @@ const MenuSanitarContainer = ({data}) => {
                     </h2>
 
                     <div className="row justify-content-center mt-3 mb-3">
-                      <div className="col-lg-8 col-md-12 col-sm-12">
+                      {/* <div className="col-lg-8 col-md-12 col-sm-12">
                         <img src={data.content.image1} />
-                      </div>
+                      </div> */}
                       <div className="col-12">
                         <p className="mt-10 fz-20 text-justify text-dark">
                           {data.content.forth}
@@ -61,9 +61,9 @@ const MenuSanitarContainer = ({data}) => {
                       {data.title.fifth}
                     </h2>
                     <div className="row justify-content-center mt-3 mb-3">
-                      <div className="col-lg-8 col-md-12 col-sm-12">
+                      {/* <div className="col-lg-8 col-md-12 col-sm-12">
                         <img src={data.content.image2} />
-                      </div>
+                      </div> */}
                       <div className="col-12">
                         <p className="mt-10 fz-20 text-justify text-dark">
                           {data.content.fifth}
@@ -118,9 +118,9 @@ const MenuSanitarContainer = ({data}) => {
                   </ul>
                   <h2 className="text-dark mt-3 mb-3 ">{data.title.thenth}</h2>
                   <div className="row justify-content-center mt-3 mb-3">
-                    <div className="col-lg-8 col-md-12 col-sm-12">
+                    {/* <div className="col-lg-8 col-md-12 col-sm-12">
                       <img src={data.content.image3} />
-                    </div>
+                    </div> */}
                     <div className="col-12">
                       <p className="mt-10 fz-20 text-justify text-dark">
                         {data.content.eidth}
