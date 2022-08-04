@@ -112,11 +112,7 @@ const Header = () => {
                       <a className="nav-link" onClick={handleClick}>Sanitär Container</a>
                     </Link>
                   </li>
-                  <li className="nav-item">
-                    <Link href="/flat-pack">
-                      <a className="nav-link" onClick={handleClick}>Flat Pack</a>
-                    </Link>
-                  </li>
+                
                   <li className="nav-item">
                     <Link href="/special-edition">
                       <a className="nav-link" onClick={handleClick}>Special Edition</a>
@@ -228,103 +224,7 @@ const Header = () => {
           </ul>
         </div>
       </div>
-      {/* <header className="fixed-top">
-        <div className="navbar-catalog">
-          <Link href="https://www.containhaus.de/assets/img/KATALOG.pdf">
-            CATALOG HERUNTERLADEN
-          </Link>
-        </div>
-        <nav className="navbar navbar-expand-lg navbar-custom navbar-light bg-light  ">
-          <div className="container-fluid navbar">
-            <div>
-              <Link href="/">
-                <a className="navbar-brand" href="#">
-                  <img
-                    height={72}
-                    width={120}
-                    src="https://www.containhaus.de/assets/img/RedBlack.webp"
-                    alt=""
-                  />
-                </a>
-              </Link>
-              <button
-                className="navbar-toggler me-auto"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-              >
-                <span className="navbar-toggler-icon" />
-              </button>
-            </div>
-
-            <div
-              className="collapse navbar-collapse  justify-content-center"
-              id="navbarSupportedContent"
-            >
-              <ul className="navbar-nav mb-2 mx-auto mb-lg-0">
-                <li className="nav-item">
-                  <Link href="/burocontainer">
-                    <a className="nav-link" aria-current="page" href="#">
-                      Bürocontainer
-                    </a>
-                  </Link>
-                </li>
-                <li className="nav-item">
-                  <Link href="/wohncontainer">
-                    <a className="nav-link" href="#">
-                      XL Wohncontainer
-                    </a>
-                  </Link>
-                </li>
-
-                <li className="nav-item">
-                  <Link href="/sanitar-container">
-                    <a className="nav-link">Sanitär Container</a>
-                  </Link>
-                </li>
-                <li className="nav-item">
-                  <Link href="/flat-pack">
-                    <a className="nav-link">Flat Pack</a>
-                  </Link>
-                </li>
-
-                <li className="nav-item">
-                  <Link href="/special-edition">
-                    <a className="nav-link">Special Edition</a>
-                  </Link>
-                </li>
-                <li className="nav-item">
-                  <Link href="/shop/all">
-                    <a className="nav-link">Shop</a>
-                  </Link>
-                </li>
-              </ul>
-              <ul className="navbar-nav mb-2 mb-lg-0 ms-auto d-flex">
-                <li className="nav-item ms-10">
-                <img src="/assets/img/LangFlag/de.svg"/>
-                </li>
-                <li className="nav-item ms-10">
-                  <Link href="/kontakt">
-                    <a className="nav-link" href="">
-                      Menu
-                    </a>
-                  </Link>
-                </li>
-                <li className="nav-item ms-10">
-                  <Link href="/kontakt">
-                    <a className="nav-link" href="">
-                      Kontakt
-                    </a>
-                  </Link>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
-      </header> */}
+      
     </>
   );
 };
