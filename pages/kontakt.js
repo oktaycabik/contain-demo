@@ -5,8 +5,19 @@ import { useRouter } from "next/router";
 import Head from "next/head";
 const Kontakt = () => {
   const form = useRef();
+  const name = useRef();
+  const mail = useRef();
+  const adress = useRef();
+  const info = useRef();
+
   const router = useRouter();
+
   const handleSubmit = (e) => {
+    const validate =
+      name.current.value.length > 0 &&
+      mail.current.value.length > 0 &&
+      adress.current.value.length > 0 &&
+      info.current.value.length > 0;
     e.preventDefault();
     emailjs
       .sendForm(
@@ -17,20 +28,20 @@ const Kontakt = () => {
       )
       .then(
         (result) => {
-          if(result.status===200){
-            router.push(
-                "/danke"
-            )
-        }
+          console.log("result.text", result.text);
         },
         (error) => {
           console.log(error.text);
         }
       );
+
+    if (validate) {
+      router.push("/danke");
+    }
   };
   return (
     <>
-         <Head>
+      <Head>
         <title>Contain Haus | Kontakt </title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
@@ -123,15 +134,36 @@ const Kontakt = () => {
                     </a>
                   </Link>
                 </h5>
-                
               </div>
               <div className="mt-4">
-                <div className="footer-head">Inhaber:<span className="footer-color">Abraham Wach </span> </div>
-                <div className="footer-head">BANKNAME:<span className="footer-color">Volksbank Sprockhövel</span> </div>
-                <div className="footer-head">SWIFTCODE:<span className="footer-color">GENODEM1SPO </span></div>
-                <div className="footer-head">KONTOINHABER:<span className="footer-color">CONTAIN HAUS CONTAINER</span> </div>
-                <div className="footer-head">IBAN:<span className="footer-color">DE4145 2615 4700 1398 6200</span> </div>
-                <div className="footer-head">Steuernummer. :<span className="footer-color">348/5203/3253</span> </div>
+                <div className="footer-head">
+                  Inhaber:<span className="footer-color">Abraham Wach </span>{" "}
+                </div>
+                <div className="footer-head">
+                  BANKNAME:
+                  <span className="footer-color">
+                    Volksbank Sprockhövel
+                  </span>{" "}
+                </div>
+                <div className="footer-head">
+                  SWIFTCODE:<span className="footer-color">GENODEM1SPO </span>
+                </div>
+                <div className="footer-head">
+                  KONTOINHABER:
+                  <span className="footer-color">
+                    CONTAIN HAUS CONTAINER
+                  </span>{" "}
+                </div>
+                <div className="footer-head">
+                  IBAN:
+                  <span className="footer-color">
+                    DE4145 2615 4700 1398 6200
+                  </span>{" "}
+                </div>
+                <div className="footer-head">
+                  Steuernummer. :
+                  <span className="footer-color">348/5203/3253</span>{" "}
+                </div>
               </div>
             </div>
             <div className="col-lg-5 col-md-12 col-12">
@@ -144,7 +176,8 @@ const Kontakt = () => {
                   <label className="row">
                     Name Nachname
                     <input
-                    required
+                      required
+                      ref={name}
                       type="text"
                       name="name"
                       className="contact-input"
@@ -152,17 +185,13 @@ const Kontakt = () => {
                   </label>
                   <label className="row">
                     Telefon (Pflichtfeld)
-                    <input
-                    required
-                      type="tel"
-                      name="number"
-                      className="contact-input"
-                    />
+                    <input type="tel" name="number" className="contact-input" />
                   </label>
                   <label className="row">
                     E-mail
                     <input
-                    required
+                      ref={mail}
+                      required
                       type="email"
                       name="email"
                       className="contact-input"
@@ -171,7 +200,8 @@ const Kontakt = () => {
                   <label className="row">
                     Liefeadresse
                     <input
-                    required
+                      ref={adress}
+                      required
                       type="text"
                       name="lieferadresse"
                       className="contact-input"
@@ -180,6 +210,8 @@ const Kontakt = () => {
                   <label className="row">
                     Nachrict
                     <textarea
+                      ref={info}
+                      required
                       name="Message"
                       type="text"
                       cols="40"
