@@ -93,7 +93,7 @@ const textColorContent = ()=>{
     }
   };
 
-
+console.log('test(', test())
   return (
   
   <>
